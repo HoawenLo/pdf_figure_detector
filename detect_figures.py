@@ -96,3 +96,8 @@ with pdfplumber.open(PDF_PATH) as pdf:
         print(f"Page {page_num} saved to {output_filename}")
 
 print("Done!")
+
+
+### To add if box too small discard as this will be noise, and figures are only ever large
+### Or use VLM to determine if it is table or an actual diagram
+### Use VLM to determine if figure needs to be separated into seperate diagrams based off the input page, perhaps give a confidence score
