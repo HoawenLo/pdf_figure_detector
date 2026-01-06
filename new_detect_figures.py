@@ -181,6 +181,32 @@ def merge_lines_into_paragraphs(line_blocks, x_tolerance=10, y_tolerance=12):
         })
     return sorted(final_paras, key=lambda b: b["top"])
 
+def filter_lines_in_tables(line_blocks, table_sections):
+    """
+    Removes lines that fall within the vertical span of any detected table.
+    table_sections is a list of tuples: (x0, top, x1, bottom)
+    """
+    filtered_lines = []
+    
+    for line in line_blocks:
+        # Calculate the vertical center of the line
+        line_midpoint = (line["top"] + line["bottom"]) / 2
+        is_inside_table = False
+        
+        for t_bbox in table_sections:
+            t_top = t_bbox[1] - 4    # index 1 is top
+            t_bottom = t_bbox[3] + 4 # index 3 is bottom
+            
+            # Check if the line's midpoint is within the table's vertical bounds
+            if t_top <= line_midpoint <= t_bottom:
+                is_inside_table = True
+                break # No need to check other tables
+        
+        if not is_inside_table:
+            filtered_lines.append(line)
+            
+    return filtered_lines
+
 # --- MAIN EXECUTION ---
 
 def process_pdf(path):
@@ -219,6 +245,7 @@ def process_pdf(path):
                 if found_table_caption:
                     final_table_sections.append(tuple(t_sect))
 
+
             # 2. Get paragraphs
             all_words = page.extract_words(extra_attrs=["fontname"])
             
@@ -234,7 +261,8 @@ def process_pdf(path):
 
             # Grouping
             raw_lines = group_words_into_lines(processed_words)
-            paragraphs = merge_lines_into_paragraphs(raw_lines)
+            filtered_lines = filter_lines_in_tables(raw_lines, final_table_sections)
+            paragraphs = merge_lines_into_paragraphs(filtered_lines)
 
             # 2. VECTOR EXTRACTION (Filtered by validated tables and paragraphs)
             filtered_vectors = get_filtered_elements(page, final_table_sections, paragraphs, lines)
