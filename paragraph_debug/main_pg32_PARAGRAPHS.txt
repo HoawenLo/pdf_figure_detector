@@ -1,0 +1,22 @@
+--- BLOCK 1 ---
+The associated toleranced feature specification element shall only be used for specifications that
+reference datums, i.e. orientation and location specifications.
+If the associated toleranced feature specification element is used together with a filter specification
+element, the association shall be to the filtered feature as the non-ideal feature.
+When the toleranced feature is a derived feature, the associated feature shall be the indirectly
+associated feature, see ISO 22432.
+The extent of the associated toleranced feature shall be equal to the extent of the feature to which it is
+associated.
+The associated toleranced feature specification element shall not be used together with a reference
+feature association specification element, see 8.2.2.3.1 , a parameter specification element, see 8.2.2.3.2,
+or a material condition specification element, see ISO 2692.
+The following associated toleranced feature specification elements are available.
+shall be used to indicate that the toleranced feature is the associated minimax (Chebyshev) feature
+without material constraint. This specification element can be used for features that are nominally
+straight lines, planes, circles, cylinders, cones and tori.
+Figure 25 shows an example of a position specification that applies to the associated minimax
+(Chebyshev) feature. See also Figure 26.
+
+--- BLOCK 2 ---
+Figure 25 — Minimax (Chebyshev) associated toleranced feature — Drawing indication
+

@@ -1,0 +1,26 @@
+--- BLOCK 1 ---
+Key
+a datum D
+b real feature or filtered feature
+c least squares (Gaussian) associated feature (toleranced feature)
+NOTE The toleranced feature is a surface, but for ease of illustration it is shown as a line.
+
+--- BLOCK 2 ---
+Figure 28 — Least squares (Gaussian) associated toleranced feature — Interpretation
+
+--- BLOCK 3 ---
+N
+
+--- BLOCK 4 ---
+shall be used to indicate that the toleranced feature is the associated minimum circumscribed
+feature or its derived feature. The minimum circumscribed feature association minimizes the size
+of the associated feature with the constraint that the associated feature circumscribes the non-ideal
+feature. This specification element can only be used for features of linear size.
+Figure 29 shows an example of a position specification that applies to the associated minimum
+circumscribed feature. N See also Figure 30.
+NOTE Although the specification element is usually used for external features, e.g. shafts as in Figure 29,
+it can also be used for internal features, e.g. holes.
+
+--- BLOCK 5 ---
+Figure 29 — Minimum circumscribed associated toleranced feature — Drawing indication
+

@@ -1,0 +1,28 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 124 — Parallelism indication
+
+--- BLOCK 3 ---
+NOTE The rotation of the tolerance zone around the datum axis is not defined with the indication given in
+Figure 124 , only the direction is specified.
+
+--- BLOCK 4 ---
+The tolerance zone defined by the specification in Figure 124 is limited by two parallel planes a distance
+t apart and parallel to the datum, see Figure 125.
+
+--- BLOCK 5 ---
+a
+
+--- BLOCK 6 ---
+Datum C.
+
+--- BLOCK 7 ---
+Figure 125 — Definition of the parallelism tolerance zone
+
+--- BLOCK 8 ---
+17.10.7 Parallelism specification of a planar surface related to a datum plane
+In Figure 126, the extracted surface shall be contained between two parallel planes 0,01 apart, which
+are parallel to datum plane D.
+

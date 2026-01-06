@@ -1,0 +1,25 @@
+--- BLOCK 1 ---
+filtered profile in Figure E.6 a) has a height range of about 20 µm, whereas the one in Figure E.6 b) has
+a height range of about 5 µm. So if the profile in Figure E.5 is functionally acceptable, but the profile
+in Figure E.1 is not, then a Gaussian filter with a cutoff length of 2,5 mm is suitable for distinguishing
+between the two, whereas a Gaussian filter with a cutoff length of 0,8 mm is only able to show a marginal
+difference between the two profiles.
+Figure E.7 shows the same profile as in Figure E.5 after the application of a closing disc filter with a
+0,5 mm radius disc as the structuring element.
+
+--- BLOCK 2 ---
+Key
+1 unfiltered profile (grey)
+2 filtered profile (black)
+
+--- BLOCK 3 ---
+Figure E.7 — Surface profile filtered with a closing ball filter
+
+--- BLOCK 4 ---
+The resulting filtered profile also has a total height range of about 35 µm, so the 1 mm diameter closing
+ball filter cannot tell the two profiles apart. Using a larger ball diameter for the structuring element
+would have made a difference. So a closing ball filter with a larger size of the structuring element would
+be appropriate, if the function depends on the location of the peaks and the profile in Figure E.1 is not
+acceptable, but the profile in Figure E.5 is acceptable, provided the peaks are in the correct location.
+Figure E.8 shows the same profile as in Figure E.5 after the application of a hull filter.
+

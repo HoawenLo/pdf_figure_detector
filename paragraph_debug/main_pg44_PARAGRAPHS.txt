@@ -1,0 +1,39 @@
+--- BLOCK 1 ---
+Figure 44 — Specification using the least squares (Gaussian) reference feature specification
+element and the valley depth characteristic specification element
+
+--- BLOCK 2 ---
+Figure 45 shows an example of a cylindricity specification that applies to the peak height relative to
+the minimax (Chebyshev) reference cylinder after the application of a spline long-wave pass filter with
+cutoff values of 0,25 mm in the axial direction and 150 UPR in the circumferential direction.
+
+--- BLOCK 3 ---
+Figure 45 — Specification of a filter specification element, a reference feature specification
+element and a characteristic specification element
+
+--- BLOCK 4 ---
+8.2.2.4 Material condition specification element M L R
+
+--- BLOCK 5 ---
+The material requirement specification elements, , and , are optional specification elements,
+see ISO 2692.
+
+--- BLOCK 6 ---
+8.2.2.5 State specification element
+The state specification element, , is an optional specification element, see ISO 10579.
+
+--- BLOCK 7 ---
+8.2.3 Datum section
+For datums and indications in the datum section, see ISO 5459.
+
+--- BLOCK 8 ---
+8.3 Plane and feature indicators
+Intersection plane indicators (Clause 13), orientation plane indicators (Clause 14), direction feature
+indicators (Clause 15) and collection plane indicators (Clause 16) can be indicated to the right of the
+tolerance indicator. If several of these are indicated, the intersection plane indicator shall be indicated
+nearest the tolerance indicator, followed by the orientation plane indicator or direction feature
+indicator (these two shall not be indicated together), and finally the collection plane indicator. There
+shall be no space between the tolerance indicator and the plane and feature indicator(s). When any
+of these indicators are indicated, the reference line can either be attached to the left hand end of the
+tolerance indicator or the right hand end of the last of the optional indicators.
+

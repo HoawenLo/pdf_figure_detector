@@ -1,0 +1,36 @@
+--- BLOCK 1 ---
+The specification applies to each surface or line element independently, unless otherwise specified (e.g.
+by using a CZ symbol).
+
+--- BLOCK 2 ---
+9.1.4 Continuous, non-closed toleranced feature
+If a specification applies to one identified restricted part of a feature or to continuous restricted parts
+of continuous features, but does not apply to the entire outline of the cross-sections (or entire surface
+represented by the outline), this restriction shall be indicated by
+1) identifying the start and the end of the toleranced feature; and
+2) either outlining the surface portion(s) involved using a long-dashed dotted wide line (in accordance
+with ISO 128-24 type 04.2) or by using the symbol “ ” (called “between”).
+When using the between symbol, the points, lines or surfaces that identify the start and end of the
+toleranced feature shall each be identified by a capital letter connected to it by a leader line terminating
+with an arrow. If the point or line is not at the boundary of an integral feature, its location shall be
+indicated by TEDs.
+If the toleranced feature is a derived feature, the intersection with a feature can be identified as a limit
+of the derived feature.
+The between symbol “ ” shall be used between two capital letters that identify the start and the end
+of the toleranced feature. This feature (compound toleranced feature) consists of all segments or areas
+between the start and the end of the identified features or parts of features.
+In order to clearly identify the toleranced feature, the geometrical tolerance indication shall be
+connected to the compound toleranced feature by a reference line and a leader line terminating with
+an arrow on the outline of the compound toleranced feature (see the example in Figure 60). The arrow
+may also be placed on a reference line using a leader line to point to the surface.
+The tolerance requirement applies to each surface or line element independently, unless otherwise
+specified, e.g. by using a CZ symbol to combine the tolerance zones or by using the UF modifier to
+indicate that the compound feature shall be considered as one feature.
+
+--- BLOCK 3 ---
+NOTE The drawing is incomplete. The nominal geometry of the profile is not defined.
+
+--- BLOCK 4 ---
+Figure 60 — Example of restricted feature — Toleranced feature is the upper surface starting
+at line J and finishing at line K
+

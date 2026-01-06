@@ -1,0 +1,44 @@
+--- BLOCK 1 ---
+— The angular and linear dimensions between the toleranced feature and the datum or datum-
+system shall be defined by TEDs. These TEDs are defined explicitly or implicitly by drawing
+indications.
+— Coaxiality/concentricity:
+— The toleranced feature is a derived feature which is nominally a straight line (median line) or a
+point (centre point).
+— When both are possible then the toleranced feature is by default the line, unless an ACS (Any
+Cross-section) modifier is indicated.
+— The angular and linear dimensions between the toleranced feature and the datum or datum-
+system are always 0° and 0 mm.
+— Symmetry:
+— The toleranced feature is an integral or a derived feature.
+— If the toleranced feature is an integral feature, the shape of the nominal toleranced feature is a
+point, a straight line or a plane.
+— If the toleranced feature is a derived feature, the shape of the nominal toleranced feature is a
+point, a straight line or a plane.
+— When both are possible then the toleranced feature is by default the surface, unless an
+intersection plane indicator is indicated.
+— The angular and linear dimensions between the toleranced feature and the datum or datum-
+system are always 0° and 0 mm.
+— Surface profile or line profile:
+— This specification is a location specification only when the tolerance indicator refers to at
+least one datum that can lock a linear distance and no “><” modifier is indicated in the second
+compartment. Otherwise, this specification is a form or an orientation specification (see B.10.2
+and B.10.3).
+— The shape of the nominal toleranced feature is explicitly given by the complete indications on
+the drawing or by queries of the CAD model, see ISO 16792.
+— The nature of the nominal toleranced feature (linear or areal) is explicitly given by the symbol.
+— The angular and linear dimensions between the toleranced feature and the datum or datum-
+system shall be defined by TEDs. These TEDs are defined explicitly or implicitly. All possible linear
+distances shall be considered between the nominal toleranced feature and a datum indicated in
+the tolerance indicated, except when the modifier >< is placed after the considered datum.
+
+--- BLOCK 2 ---
+B.10.5 Intersection planes
+An implicit or explicit intersection plane is used to define the toleranced feature when the geometrical
+characteristic symbol indicates that the nature of the nominal toleranced feature is a line, or an
+intersection plane indicator is added to the specification.
+It is defined implicitly in the case of:
+— Straightness of the generatrix of a cone or a cylinder: The intersection plane is a plane going through
+the axis of the associated feature established from the extracted integral feature (symmetry plane
+from the axis);
+

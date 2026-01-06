@@ -1,0 +1,30 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+NOTE The drawing is incomplete. The nominal geometry of the profile is not defined.
+
+--- BLOCK 2 ---
+Figure 53 — All around drawing indication
+
+--- BLOCK 3 ---
+Interpretation: The requirement indicated on the drawing applies as individual requirements for the
+four surfaces a, b, c and d.
+
+--- BLOCK 4 ---
+NOTE The all around symbol does not involve the surfaces e and f.
+
+--- BLOCK 5 ---
+Figure 54 — All around interpretation
+
+--- BLOCK 6 ---
+The workpiece has to be relatively simple for an “all around” indication to be unambiguous. For example,
+if there were a vertical hole in the middle of the workpiece shown in Figure 51 and Figure 53, it is not
+clear whether the specification would apply to the surface of the hole or not. In Figure 51 and Figure 53,
+the collection plane can be any plane parallel to datum A. Depending on where the collection plane is
+located, it may or may not intersect the hole. In such cases, the all around indication shall not be used.
+
+--- BLOCK 7 ---
+NOTE The drawing is incomplete. The nominal geometry of the profile is not defined.
+
+--- BLOCK 8 ---
+Figure 55 — All over drawing indication
+

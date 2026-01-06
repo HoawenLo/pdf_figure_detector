@@ -1,0 +1,28 @@
+--- BLOCK 1 ---
+Figure 35 — Tangent toleranced feature associated to the convex hull filtered feature —
+Drawing indication
+
+--- BLOCK 2 ---
+Key
+a datum D
+b real feature
+c convex hull filtered feature
+d tangent feature to the convex hull filtered feature (toleranced feature)
+NOTE The toleranced feature is a surface, but for ease of illustration it is shown as a line.
+
+--- BLOCK 3 ---
+Figure 36 — Tangent toleranced feature associated to the convex hull filtered feature —
+Interpretation
+
+--- BLOCK 4 ---
+8.2.2.2.3 Derived toleranced feature specification element
+By default, the specification applies to the indicated feature itself, except as given in Clause 6. The derived
+toleranced feature specification element is an optional specification element. It is used to indicate that
+the specification does not apply to the integral feature itself, but to a feature derived from it.
+The following derived toleranced feature specification elements are available.
+— is used to indicate that the toleranced feature is the derived feature. Therefore, this specification
+element can only be used for features of size. Because the indication would be ambiguous, if the
+feature of size is made up of two features, e.g. two parallel planes, this specification can only be
+used for revolutes. The derived feature is the median line, if the indicated feature is a cylinder, or
+the median point, if the indicated feature is a circle or a sphere.
+

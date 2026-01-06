@@ -1,0 +1,33 @@
+--- BLOCK 1 ---
+nominal toleranced feature, except in the case of a straight line, shall be explicitly given by complete
+indications on the drawing or by queries of the CAD model, see ISO 16792.
+In Figure 106 , in each section, parallel to datum plane A, as specified by the intersection plane indicator,
+the extracted profile line shall be contained between two equidistant lines enveloping circles of
+diameter 0,04, the centres of which are situated on a line having the theoretically exact geometrical
+form with respect to datum plane A and datum plane B. For deprecated 2D practice, see A.2.1.
+
+--- BLOCK 2 ---
+a) 2D b) 3D
+NOTE Some of the TEDs necessary for an unambiguous definition of the nominal geometry are not shown.
+
+--- BLOCK 3 ---
+Figure 106 — Line profile indication
+
+--- BLOCK 4 ---
+The tolerance zone defined by the specification in Figure 106 is limited by two lines enveloping circles
+of diameter t , the centres of which are situated on a line having the theoretically exact geometrical form
+with respect to datum plane A and datum plane B, see Figure 107.
+
+--- BLOCK 5 ---
+a
+b
+c
+
+--- BLOCK 6 ---
+Datum A.
+Datum B.
+Plane parallel to datum A.
+
+--- BLOCK 7 ---
+Figure 107 — Definition of the line profile tolerance zone
+

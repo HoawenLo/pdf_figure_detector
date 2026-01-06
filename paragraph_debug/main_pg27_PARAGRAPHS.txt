@@ -1,0 +1,20 @@
+--- BLOCK 1 ---
+Figure 19 — Combined zone specification applying to several features
+
+--- BLOCK 2 ---
+NOTE If the toleranced features are flat surfaces, the position symbol can be used with the same meaning.
+
+--- BLOCK 3 ---
+Figure 20 — Combined zone specification applying to several features
+CZ
+SZ CZ
+The specification element can be used to create a pattern; for more details on patterns, see ISO 5458.
+In case of ambiguity, either or shall be indicated. When using “all around” or “all over”, separate
+rules apply, see 9.1.2.
+
+--- BLOCK 4 ---
+8.2.2.1.3 Specified tolerance zone offset specification element
+UZ
+By default, the tolerance zone is symmetrical around the theoretically exact feature (TEF), making it the
+reference feature. The tolerance zone offset using is an optional specification element. See Figure 21.
+

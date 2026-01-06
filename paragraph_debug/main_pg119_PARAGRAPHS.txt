@@ -1,0 +1,38 @@
+--- BLOCK 1 ---
+Annex A
+
+--- BLOCK 2 ---
+(informative)
+Deprecated and former practices
+
+--- BLOCK 3 ---
+A.1 General
+This annex describes former practices that have been omitted and are no longer used. Therefore, they
+are not an integral part of this document, but should be used for information only.
+
+--- BLOCK 4 ---
+A.2 Deprecated practice from ISO 1101:2012
+The following drawing indications were described in ISO 1101:2012. They can still be used, but are
+expected to be phased out.
+
+--- BLOCK 5 ---
+A.2.1 The practice of relying on the drawing plane to define the intersection plane, e.g. for a straightness
+tolerance has been deprecated, in order to have similar indications in 2D and 3D. For the preferred
+indications, see Figure 90, Figure 104, Figure 106 and Figure 122.
+
+--- BLOCK 6 ---
+A.2.2 The LE specification element is used to indicate that the specification applied to line elements
+individually, see Figure A.1 . This specification element has been deprecated because the use of an
+intersection plane indicator makes LE superfluous. For the preferred indication, see Figure 122.
+
+--- BLOCK 7 ---
+Figure A.1
+
+--- BLOCK 8 ---
+A.2.3 In an “all around” specification in 2D, the collection plane indicator can be omitted, see Figure A.2,
+instead relying on the drawing plane to identify the collection plane. This practice has been deprecated
+to align the practices between 2D and 3D. For the preferred indication, see Figure 53.
+
+--- BLOCK 9 ---
+Figure A.2
+

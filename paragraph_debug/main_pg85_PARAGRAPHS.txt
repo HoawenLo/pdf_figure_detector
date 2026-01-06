@@ -1,0 +1,33 @@
+--- BLOCK 1 ---
+a
+
+--- BLOCK 2 ---
+Datum A.
+
+--- BLOCK 3 ---
+Figure 119 — Definition of the parallelism tolerance zone
+
+--- BLOCK 4 ---
+17.10.4 Parallelism specification of a median line related to a datum plane
+In Figure 120, the extracted median line shall be contained between two parallel planes 0,01 apart,
+which are parallel to datum plane B.
+
+--- BLOCK 5 ---
+a) 2D b) 3D
+
+--- BLOCK 6 ---
+Figure 120 — Parallelism indication
+
+--- BLOCK 7 ---
+The tolerance zone defined by the specification in Figure 120 is limited by two parallel planes a distance
+t apart and parallel to the datum, see Figure 121.
+
+--- BLOCK 8 ---
+a
+
+--- BLOCK 9 ---
+Datum B.
+
+--- BLOCK 10 ---
+Figure 121 — Definition of the parallelism tolerance zone
+

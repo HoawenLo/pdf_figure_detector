@@ -1,0 +1,30 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 7 — Indication of median feature specification
+
+--- BLOCK 3 ---
+If necessary, an intersection plane indicator shall be used to specify that the toleranced feature is a set
+of lines, see Figure 122, instead of a surface, see Figure 126.
+NOTE When the toleranced feature is a derived line, a further indication may be needed to control the
+orientation of the tolerance zone, see Figure 114.
+
+--- BLOCK 4 ---
+7 Tolerance zones
+
+--- BLOCK 5 ---
+7.1 Tolerance zone defaults
+The tolerance zone shall be positioned symmetrically around the reference feature unless otherwise
+indicated (see 8.2.2.1.3 ). The tolerance value defines the width of the tolerance zone. The local width of
+the tolerance zones shall apply normal to the specified geometry (see Figures 8 and 9) unless otherwise
+indicated. See Clause 15.
+For roundness of revolute surfaces that are neither cylindrical nor spherical, e.g. cones, the direction of
+the width of the tolerance zones shall always be indicated. See Clause 15.
+NOTE The orientation alone of the leader line does not influence the definition of the tolerance zone, except
+in the case where the orientation of the leader line and therefore the direction of the width of the tolerance zone
+is indicated by a TED. See Clause 15.
+
+--- BLOCK 6 ---
+Figure 8 — Drawing indication
+

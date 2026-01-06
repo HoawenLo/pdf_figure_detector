@@ -1,0 +1,31 @@
+--- BLOCK 1 ---
+10 Theoretically exact dimensions (TED)
+If location, orientation or profile specifications are indicated for a feature or a group of features, the
+dimensions determining the theoretically exact location, orientation or profile, respectively, are called
+theoretically exact dimensions (TED). TED can be explicit or implicit.
+TED shall also be used to indicate the angles between the datums in a datum system.
+TED shall not be toleranced. They are to be enclosed in a frame (see the examples in Figures 64 and 65).
+TEDs or CAD data shall be used to define the nominal geometry of complex surfaces (i.e. non-flat
+surfaces).
+TEDs shall be used if the requirements are related, i.e. if tolerance zones shall maintain a theoretically
+exact relationship to each other and/or be treated as one tolerance zone.
+
+--- BLOCK 2 ---
+Figure 64 — Indication of linear TEDs
+
+--- BLOCK 3 ---
+Figure 65 — Indication of an angular TED
+
+--- BLOCK 4 ---
+TEDs may be extracted from the profile of the nominal model in the CAD file. When this is the case, it
+shall be indicated near the title block.
+NOTE This indication can, for example, be formulated as: “TED’s according to CAD model 12345 rev abc”. See
+also ISO 16792.
+
+--- BLOCK 5 ---
+11 Restrictive specifications
+If a specification of the same characteristic is applied to a restricted length, lying anywhere within the
+total extent of the feature, the value of the restricted length shall be added after the tolerance value and
+separated from it by an oblique stroke [see the example in Figure 66 a)]. If two or more specifications of
+the same characteristic are to be indicated, they may be combined as shown in Figure 66 b).
+

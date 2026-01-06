@@ -1,0 +1,28 @@
+--- BLOCK 1 ---
+Interpretation: The requirement applied to all the surfaces a, b, c, d, e, f, g, h, considered as one united
+feature.
+
+--- BLOCK 2 ---
+NOTE Without UF the surfaces would have been considered independently.
+
+--- BLOCK 3 ---
+Figure 56 — All over interpretation
+
+--- BLOCK 4 ---
+9.1.3 Restricted area toleranced feature
+The restricted area shall be defined either
+— by outlining the surface portions involved using a long-dashed dotted wide line (in accordance with
+ISO 128-24 type 04.2). The location and dimensions shall be defined by TEDs, see Figure 58 a),
+— by a hatched area with its border indicated as a long-dashed dotted wide line (in accordance with
+ISO 128-24 type 04.2). The location and dimensions shall be defined by TEDs, see Figure 57 a),
+Figure 58 b) and Figure 59,
+— by its corner points, indicated as crosses on the integral feature (the location of the points being
+defined by TEDs), identified by capital letters and leader lines terminated by an arrow. The letters
+are indicated above the tolerance indicator with a “between” symbol between the last two, see
+Figure 57 b). The border is formed by connecting the corner points with straight segments,
+— by two straight border lines identified by capital letters and leader lines terminated by an arrow
+(the location of the border lines being defined by TEDs) combined with an indication using the
+“between” symbol, see Figures 60 and 63.
+The leader line starting from the reference line connected to the geometrical tolerance indication shall
+terminate on the restricted area.
+

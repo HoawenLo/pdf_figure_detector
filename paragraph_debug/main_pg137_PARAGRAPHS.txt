@@ -1,0 +1,30 @@
+--- BLOCK 1 ---
+Annex D
+
+--- BLOCK 2 ---
+(normative)
+ISO special specification elements for form
+
+--- BLOCK 3 ---
+Table D.1 — Association symbols
+Symbol Association
+C Minimax (Chebyshev)
+G Least squares (Gaussian)
+a
+X Maximum inscribed
+a
+N Minimum circumscribed
+E Constrained external to the material
+I Constrained internal to the material
+a
+Only applies to spherical and cylindrical features for
+form and features of size for datums.
+
+--- BLOCK 4 ---
+Table D.2 — Parameter symbols
+Symbol Parameter
+P Reference-to-peak
+V Reference-to-valley
+T Peak-to-valley
+Q Root mean square (RMS)
+

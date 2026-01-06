@@ -1,0 +1,20 @@
+--- BLOCK 1 ---
+measurement standards that discussed the effect of filtering in the context of the type of specification
+that is within the scope of this document.
+Much discussion took place at the time in an attempt to come to a consensus on what the default filter
+settings should be for form. However, the differences in philosophy amongst the stakeholders were too
+great to find a consensus that could attract the necessary majority of votes. This is why there are no
+defaults in the form standards and why they were initially published as technical specifications and not
+International Standards.
+One of the purposes of this edition of this document is to provide the means to indicate unambiguous
+filter information in geometrical requirements and enable users of the GPS standards to take advantage
+of the tools first defined in the form standards in 2003.
+While it would be very beneficial to have rules for filter defaults included in this document, it is expected
+that it would be no easier to reach a consensus today than it was in 2003. It is also recognized that this
+document contains many valuable tools that would be delayed if an attempt to find a consensus was
+made before publishing.
+Therefore, this document is published without filtering defaults. That way, stakeholders will be able to
+take advantage of the tools provided and gain experience using these tools. Hopefully, that will enable a
+consensus for filter defaults in a future edition of this document. In the meantime, tools are provided to
+conveniently indicate drawing defaults for filtering and association, see 8.6.
+

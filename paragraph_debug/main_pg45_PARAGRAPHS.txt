@@ -1,0 +1,49 @@
+--- BLOCK 1 ---
+8.4 Indications adjacent to the tolerance indicator
+
+--- BLOCK 2 ---
+8.4.1 General
+There are three areas adjacent to the tolerance indicator where supplementary indications can be
+indicated, see Figure 46.
+
+--- BLOCK 3 ---
+a
+Upper/lower adjacent indication area.
+b
+Inline adjacent indication area.
+NOTE While indications in the upper and lower adjacent indication areas mean the same, it is preferable to
+use the upper adjacent indication area, if practical.
+
+--- BLOCK 4 ---
+Figure 46 — Adjacent indication areas
+
+--- BLOCK 5 ---
+Indications that apply to all the tolerance indicators attached to the leader line as well as any
+dimensional specifications shall be indicated in the upper or lower adjacent indication area. The
+meaning of indications in the upper and lower adjacent indication areas is identical. Only one of these
+adjacent areas shall be used.
+Indications that only apply to one tolerance indicator shall be indicated in an inline adjacent indication
+area for that tolerance indicator. Figure 46 shows the placement of inline adjacent indication areas,
+depending on which end of the tolerance indication the reference line is attached to.
+When there is only one tolerance indicator, indications in the upper/lower adjacent indication areas and
+in the inline adjacent indication area mean the same. In this case, only one adjacent indication area shall
+be used and it is preferable to use the upper adjacent indication area, if practical.
+Indications in the upper/lower adjacent indication areas shall be left aligned. Indications in the inline
+adjacent indication area shall be left aligned if it is to the right of the tolerance indicator and right
+aligned if it is to the left of the tolerance indicator.
+
+--- BLOCK 6 ---
+8.4.2 Toleranced feature identifiers
+If the toleranced feature is not the entire single feature indicated by the leader line and arrow attached
+to the tolerance indicator, an indication shall be given indicating the toleranced feature.
+— , if the toleranced feature is an intersection line or an intersection point defined as the intersection
+between an extracted integral feature and a section plane, or between an extracted median line
+and an intersection plane, see Figure 47. If a datum is indicated, the specification element also
+modifies the datum feature to be in the corresponding cross-section. The cross-section applies
+perpendicular to the indicated datum or the situation straight line of the integral feature. The
+specification element can only be applied to revolute surfaces, cylindrical surfaces or prismatic
+surfaces.
+— Letters indicating locations on the feature, separated by the between symbol, if the toleranced
+feature is a restricted feature, see Figure 60 and Figure 63, or the width of the tolerance zone varies
+proportionally between the locations, see Figure 10 and Figure 14. For former practice, see A.3.2.
+

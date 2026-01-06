@@ -1,0 +1,47 @@
+--- BLOCK 1 ---
+EUROPÄISCHE NORM
+
+--- BLOCK 2 ---
+February 2017
+
+--- BLOCK 3 ---
+ICS 17.040.40 Supersedes EN ISO 1101:2013
+
+--- BLOCK 4 ---
+English Version
+
+--- BLOCK 5 ---
+Geometrical product specifications (GPS) - Geometrical
+tolerancing - Tolerances of form, orientation, location and
+run-out (ISO 1101:2017)
+
+--- BLOCK 6 ---
+Spécification géométrique des produits (GPS) - Geometrische Produktspezifikation (GPS) -
+Tolérancement géométrique - Tolérancement de Geometrische Tolerierung - Tolerierung von Form,
+forme, orientation, position et battement (ISO Richtung, Ort und Lauf (ISO 1101:2017)
+1101:2017)
+
+--- BLOCK 7 ---
+This European Standard was approved by CEN on 14 December 2016.
+CEN members are bound to comply with the CEN/CENELEC Internal Regulations which stipulate the conditions for giving this
+European Standard the status of a national standard without any alteration. Up-to-date lists and bibliographical references
+concerning such national standards may be obtained on application to the CEN-CENELEC Management Centre or to any CEN
+member.
+This European Standard exists in three official versions (English, French, German). A version in any other language made by
+translation under the responsibility of a CEN member into its own language and notified to the CEN-CENELEC Management
+Centre has the same status as the official versions.
+CEN members are the national standards bodies of Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia,
+Finland, Former Yugoslav Republic of Macedonia, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania,
+Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland,
+Turkey and United Kingdom.
+
+--- BLOCK 8 ---
+EUROPEAN COMMITTEE FOR STANDARDIZATION
+COMITÉ EUROPÉEN DE NORMALISATION
+EUROPÄISCHES KOMITEE FÜR NORMUNG
+
+--- BLOCK 9 ---
+CEN-CENELEC Management Centre: Avenue Marnix 17, B-1000 Brussels
+© 2017 CEN All rights of exploitation in any form and by any means reserved Ref. No. EN ISO 1101:2017 E
+worldwide for CEN national Members.
+

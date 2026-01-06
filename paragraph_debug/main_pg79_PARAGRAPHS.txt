@@ -1,0 +1,38 @@
+--- BLOCK 1 ---
+17.8 Surface profile specification not related to a datum
+The toleranced feature can be an integral feature or a derived feature. The nature of the nominal
+toleranced feature is explicitly given as an areal feature. The shape of the nominal toleranced feature,
+except in the case of a flat surface, shall be explicitly given by complete indications on the drawing or by
+queries of the CAD model, see ISO 16792.
+In Figure 108, the extracted surface shall be contained between two equidistant surfaces enveloping
+spheres of diameter 0,02, the centres of which are situated on a surface having the theoretically exact
+geometrical form.
+
+--- BLOCK 2 ---
+a) 2D b) 3D
+
+--- BLOCK 3 ---
+Figure 108 — Surface profile indication
+
+--- BLOCK 4 ---
+The tolerance zone defined by the specification in Figure 108 is limited by two surfaces enveloping
+spheres of diameter t , the centres of which are situated on a surface having the theoretically exact
+geometrical form, see Figure 109.
+
+--- BLOCK 5 ---
+Figure 109 — Definition of the surface profile tolerance zone
+
+--- BLOCK 6 ---
+17.9 Surface profile specification related to a datum
+The toleranced feature can be an integral feature or a derived feature. The nature of the nominal
+toleranced feature is explicitly given as an areal feature. The shape of the nominal toleranced feature,
+except in the case of a flat surface, shall be explicitly given by complete indications on the drawing or by
+queries of the CAD model, see ISO 16792.
+If the specification is an orientation specification, the >< specification element shall be placed in the
+second compartment of the tolerance indicator or after each datum indication in the tolerance indicator,
+or no datum that is able to lock a non-redundant translation of the tolerance zone shall be indicated.
+The angular dimensions that are locked between the nominal toleranced feature and the datums shall
+be defined by explicit or implicit TEDs or both, see ISO 5459.
+If the specification is a location specification, at least one datum that locks a non-redundant translation
+of the tolerance zone shall be indicated in the tolerance indicator. The angular and linear dimensions
+

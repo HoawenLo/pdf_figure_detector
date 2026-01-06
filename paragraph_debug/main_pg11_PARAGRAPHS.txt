@@ -1,0 +1,46 @@
+--- BLOCK 1 ---
+ISO 16610 (all parts), Geometrical product specifications (GPS) — Filtration
+ISO 17450-1:2011, Geometrical product specifications (GPS) — General concepts — Part 1: Model for
+geometrical specification and verification
+ISO 17450-2, Geometrical product specifications (GPS) — General concepts — Part 2: Basic tenets,
+specifications, operators, uncertainties and ambiguities
+ISO 17450-3, Geometrical product specifications (GPS) — General concepts — Part 3: Toleranced features
+ISO 22432, Geometrical product specifications (GPS) — Features utilized in specification and verification
+ISO 25378:2011, Geometrical product specifications (GPS) — Characteristics and conditions — definitions
+
+--- BLOCK 2 ---
+3 Terms and definitions
+For the purpose of this document, the terms and definitions given in ISO 8015, the ISO 16610 series,
+ISO 17450-1, ISO 17450-2, ISO 17450-3, ISO 22432, ISO 25378 and the following apply.
+ISO and IEC maintain terminological databases for use in standardization at the following addresses:
+— IEC Electropedia: available at http:// www .electropedia .org/
+— ISO Online browsing platform: available at https:// www .iso .org/ obp/
+3.1
+tolerance zone
+space limited by and including one or two ideal lines or surfaces, and characterized by one or more
+linear dimensions, called a tolerance
+Note 1 to entry: See also 4.4.
+
+--- BLOCK 3 ---
+3.2
+intersection plane
+plane, established from an extracted feature of the workpiece, identifying a line on an extracted surface
+(integral or median) or a point on an extracted line
+Note 1 to entry: The use of intersection planes makes it possible to define toleranced features independent of
+the view.
+Note 2 to entry: For areal surface texture, the intersection plane can be used to define the orientation of the
+evaluation area, see ISO 25178-1.
+
+--- BLOCK 4 ---
+3.3
+orientation plane
+plane, established from an extracted feature of the workpiece, identifying the orientation of the
+tolerance zone
+Note 1 to entry: The use of an orientation plane makes it possible to define the direction of the planes or cylinder
+that limit the tolerance zone independent of the TEDs (for location) or of the datum (for orientation). The
+orientation plane is only used for this purpose when the toleranced feature is a median feature (centre point,
+median straight line) and the tolerance zone is defined by two parallel straight lines or two parallel planes or, for
+a centre point, a cylinder.
+Note 2 to entry: The use of an orientation plane also makes it possible to define the orientation of a rectangular
+restricted area.
+

@@ -1,0 +1,46 @@
+--- BLOCK 1 ---
+C.2 Nesting indices
+
+--- BLOCK 2 ---
+Table C.2 — Nesting indices
+Symbol Name Nesting index
+G Gaussian Cutoff length
+Cutoff UPR
+S Spline Cutoff length
+Cutoff UPR
+SW Spline Wavelet Cutoff length
+Cutoff UPR
+CW Complex Wavelet Cutoff length
+Cutoff UPR
+RG Robust Gaussian Cutoff length
+Cutoff UPR
+RS Robust Spline Cutoff length
+Cutoff UPR
+OB Opening Ball Ball radius
+OH Opening Horizontal Segment Segment Length
+OD Opening Disc Disc radius
+CB Closing Ball Ball radius
+CH Closing Horizontal Segment Segment Length
+CD Closing Disc Disc radius
+AB Alternating Ball Ball radius
+AH Alternating Horizontal Segment Segment Length
+AD Alternating Disc Disc radius
+F Fourier Wavelength
+UPR number
+H Hull H0 indicates the convex hull
+NOTE Cutoff length applies to filters for open profiles, Cutoff UPR applies to filters for closed profiles.
+
+--- BLOCK 3 ---
+C.3 Filtering in GPS
+Filtering has always been utilized in surface texture measurements and has been standardized in
+that field at least since the publication of ISO 3274:1975. Surface texture parameter values are highly
+dependent on the filter applied and it is well known that in order to have meaningful control over
+surface texture, the filtering shall be defined. Currently, ISO 4288:1996 gives the default rules for filters,
+if the specification does not contain explicit filter setting requirements.
+It is similarly well known that measured form deviations change significantly when different filters
+and cut-off values are applied. This is especially well known for roundness and straightness, because
+equipment that is able to produce graphical representations of the measured profile and repeat
+measurements with different filter settings has been available in those areas for several decades.
+When ISO 12180, ISO 12181, ISO 12780 and ISO 12781 (“the form standards”) were published as
+technical specifications in 2003, they were the first ISO GPS documents that were not purely considered
+

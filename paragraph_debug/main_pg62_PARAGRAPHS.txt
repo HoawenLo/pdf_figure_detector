@@ -1,0 +1,43 @@
+--- BLOCK 1 ---
+the feature, an intersection plane indicator shall be used to indicate that the toleranced feature is the
+lines in the feature and the direction of the lines, see Figure 77, where the toleranced feature is all lines
+in the surface parallel to datum C.
+
+--- BLOCK 2 ---
+Figure 77 — Specification using an intersection plane indicator
+
+--- BLOCK 3 ---
+The intersection plane shall be established parallel to, perpendicular to, at a defined angle to or
+symmetrical to (including) the datum given in the second compartment of the intersection plane
+indicator, but without additional orientation constraints.
+In some cases, an intersection plane will have an unlocked degree of freedom. In that case by default,
+the intersection plane will be perpendicular to the toleranced feature. When a direction feature is
+added, the effect is to reorient the intersection plane.
+NOTE The exact constraints of how the direction feature reorients the intersection plane are not fully
+detailed in this document.
+
+--- BLOCK 4 ---
+The possible intersection planes are given in Table 8 . They depend on the datum used to establish
+the intersection plane and how the plane is constructed from this datum (as defined by the symbol
+indicated).
+
+--- BLOCK 5 ---
+Table 8 — Application cases of intersection plane
+Intersection plane
+Indicated datum At defined angle to Symmetrical
+Parallel to Perpendicular to
+to (including)
+Not b d
+Axis of revolute surface (cylinder or cone) OK OK OK
+applicable
+a c
+Plane (integral or median) OK OK OK Not applicable
+a
+See Figure 78.
+b
+See Figure 79.
+c
+See Figure 80.
+d
+See Figure 81.
+

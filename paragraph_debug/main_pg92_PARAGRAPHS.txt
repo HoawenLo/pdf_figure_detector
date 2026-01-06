@@ -1,0 +1,38 @@
+--- BLOCK 1 ---
+a
+
+--- BLOCK 2 ---
+Datum A.
+
+--- BLOCK 3 ---
+Figure 135 — Definition of the perpendicularity tolerance zone
+
+--- BLOCK 4 ---
+17.11.5 Perpendicularity specification of a planar surface related to a datum straight line
+In Figure 136, the extracted surface shall be contained between two parallel planes 0,08 apart, which
+are perpendicular to datum axis A.
+
+--- BLOCK 5 ---
+a) 2D b) 3D
+
+--- BLOCK 6 ---
+Figure 136 — Perpendicularity indication
+
+--- BLOCK 7 ---
+The tolerance zone defined by the specification in Figure 136 is limited by two parallel planes a distance
+t apart and perpendicular to the datum, see Figure 137.
+
+--- BLOCK 8 ---
+a
+
+--- BLOCK 9 ---
+Datum A.
+
+--- BLOCK 10 ---
+Figure 137 — Definition of the perpendicularity tolerance zone
+
+--- BLOCK 11 ---
+17.11.6 Perpendicularity specification of a planar surface related to a datum plane
+In Figure 138, the extracted surface shall be contained between two parallel planes 0,08 apart, which
+are perpendicular to datum plane A.
+

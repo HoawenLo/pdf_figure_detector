@@ -1,0 +1,38 @@
+--- BLOCK 1 ---
+UZ
+If the offset variation is not linear, it shall be specified, e.g. in the CAD model.
+The specification element can only be used for integral features.
+
+--- BLOCK 2 ---
+8.2.2.1.4 Constraint specification elements
+
+--- BLOCK 3 ---
+8.2.2.1.4.1 Unspecified linear tolerance zone offset specification element
+If the tolerance zone is allowed to be offset from being symmetric around the TEF by a constant but
+unspecified amount, the symbol shall be indicated.
+The nominal size of the TEF may not be defined by a TED for circles, cylinders, spheres and tori, e.g. in
+the case where there is only a ± tolerance indicated for the size. In this case, the specification element
+shall always be indicated for line profile specifications and surface profile specifications to make it
+explicit that the size of the TEF is not fixed.
+
+--- BLOCK 4 ---
+Key
+1 single complex theoretically exact feature (TEF)
+2 two of the infinite number of spheres or circles defining the offset theoretical feature, i.e. the reference feature
+3 reference feature, equidistant from the TEF
+4 limits of the tolerance zone
+5 three of the infinite number of spheres or circles defining the tolerance zone along the reference feature
+r constant, but unspecified offset
+This figure shows how the shape of the offset tolerance zone is defined from the TEF. For a form tolerance, i.e. a
+tolerance without reference to datums, the TEF is unconstrained, i.e. the tolerance zone, when combined with an
+offset value, may adopt any location or orientation when attempting to fit to the toleranced feature (see 4.8). TEDs and
+reference to one or more datums in the tolerance indicator can be used to constrain the TEF together with the zone.
+
+--- BLOCK 5 ---
+Figure 23 — Offset tolerance zone with unspecified offset
+
+--- BLOCK 6 ---
+NOTE 1 Because there are no bounds on the offset, a specification with the modifier is usually combined
+with a specification using a larger tolerance without the modifier. When both specifications are satisfied, this
+combination controls the shape of the tolerance feature within the larger, fixed tolerance zone.
+

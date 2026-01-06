@@ -1,0 +1,51 @@
+--- BLOCK 1 ---
+3.4
+direction feature
+ideal feature, established from an extracted feature of the workpiece, identifying the direction of local
+deviations
+Note 1 to entry: The direction feature can be a plane, a cylinder or a cone.
+Note 2 to entry: For a line in a surface, the use of a direction feature makes it possible to change the direction of
+the width of the tolerance zone.
+Note 3 to entry: The direction feature is used when the tolerance value applies in a specified direction instead of
+normal to the specified geometry.
+Note 4 to entry: The direction feature is constructed from the datum indicated in the second compartment of
+the direction feature indicator. The geometry of the direction feature depends on the geometry of the toleranced
+feature.
+
+--- BLOCK 2 ---
+3.5
+compound continuous feature
+single feature composed of more than one single feature joined together without gaps
+Note 1 to entry: A compound continuous feature can be closed or not.
+Note 2 to entry: A non-closed compound continuous feature can be defined using the “between” symbol (see 9.1.4)
+and, if applicable, the UF modifier.
+Note 3 to entry: A closed compound continuous feature can be defined using the “all around” symbol (see 9.1.2)
+and the UF modifier. In this case, it is a set of single features whose intersection with any plane parallel to a
+collection plane is a line or a point.
+Note 4 to entry: A closed compound continuous feature can be defined using the “all over” symbol (see 9.1.2) and
+the UF modifier.
+
+--- BLOCK 3 ---
+3.6
+collection plane
+plane, established from a feature on the workpiece, defining a closed compound continuous feature
+Note 1 to entry: The collection plane is always used when the “all around” symbol is applied.
+
+--- BLOCK 4 ---
+3.7
+theoretically exact dimension
+TED
+linear or angular dimension used in GPS operations to define theoretically exact geometry, extents,
+locations and orientations of features
+Note 1 to entry: For the purpose of this document, the term “theoretically exact dimension” has been
+abbreviated as TED.
+Note 2 to entry: A TED can be used to define the following:
+— the nominal shape and dimensions of features;
+— the definition of theoretically exact features (TEF);
+— the location and dimensions of portions of features, including restricted toleranced features;
+— the length of projected toleranced features;
+— the relative location and orientation of two or more tolerance zones;
+— the relative location and orientation of datum targets, including moveable datum targets;
+— the location and orientation of tolerance zones relative to datums and datum systems;
+— the direction of the width of tolerance zones.
+

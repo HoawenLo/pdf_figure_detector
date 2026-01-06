@@ -1,0 +1,26 @@
+--- BLOCK 1 ---
+Key
+1 unfiltered profile
+2 filtered profile
+
+--- BLOCK 2 ---
+Figure E.8 — Surface profile filtered with a convex hull filter
+
+--- BLOCK 3 ---
+In this case, the resulting filtered profile has a total height range of about 10 µm, so the convex hull
+filter can also tell the two profiles apart. Therefore, a convex hull filter would be appropriate, if the
+function depends on the location of the peaks and the profile in Figure E.1 is not acceptable, but the
+profile in Figure E.5 is acceptable, provided the peaks are in the correct location. In this particular case,
+the convex hull filter sees a larger difference between the two profiles than the closing ball filter does.
+For further information, see the ISO 16610 series of standards, in particular ISO 16610-1.
+
+--- BLOCK 4 ---
+E.2 Examples of specifications using filters
+Figure E.9 shows an example of a parallelism specification with a long-wave pass filter. The specification
+element S indicates that a spline filter is specified. The value 0,25 indicates a 0,25 mm cutoff and because
+the “-” follows the value, it is a long-wave pass filter, which removes wavelengths shorter than the cutoff
+value. The specification therefore applies to a feature that has been filtered with a 0,25 mm long-wave
+pass spline filter. The intersection plane indicator adjacent to the tolerance indicator indicates that
+the specification applies to line elements parallel to datum C, so each individual filtered line shall be
+parallel to datum V within a tolerance zone defined as the space between two lines 0,2 mm apart.
+

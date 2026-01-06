@@ -1,0 +1,47 @@
+--- BLOCK 1 ---
+4.3 A feature is a specific portion of the workpiece, such as a point, a line or a surface; these features
+can be integral features (e.g. the external surface of a cylinder) or derived features (e.g. a median line or
+median surface). See ISO 17450-1.
+
+--- BLOCK 2 ---
+4.4 Depending on the characteristic to be specified and the manner in which it is specified, the
+tolerance zone is one of the following:
+— the space within a circle;
+— the space between two concentric circles;
+— the space between two parallel circles on a conical surface;
+— the space between two parallel circles of the same diameter;
+— the space between two equidistant complex lines or two parallel straight lines;
+— the space between two non-equidistant complex lines or two non-parallel straight lines;
+— the space within a cylinder;
+— the space between two coaxial cylinders;
+— the space within a cone;
+— the space within a single complex surface;
+— the space between two equidistant complex surfaces or two parallel planes;
+— the space within a sphere;
+— the space between two non-equidistant complex surfaces or two non-parallel planes.
+NOTE The tolerance zone may be defined in the CAD model.
+
+--- BLOCK 3 ---
+4.5 Unless a more restrictive indication is required, for example by an explanatory note, the toleranced
+feature may be of any form, orientation and/or location within this tolerance zone.
+
+--- BLOCK 4 ---
+4.6 The specification applies to the whole extent of the considered feature unless otherwise specified.
+See Clauses 11 and 12.
+Currently, the detailed rules for partitioning (defining the boundary of the toleranced feature) are not
+elaborated in GPS standards. This leads to an ambiguity of specification.
+
+--- BLOCK 5 ---
+4.7 Geometrical specifications which are assigned to features related to a datum(s) do not limit the
+form deviations of the datum feature(s) itself.
+
+--- BLOCK 6 ---
+4.8 For functional reasons, one or more characteristics can be specified to define the geometrical
+deviations of a feature. Certain types of specifications, which limit the geometrical deviations of a
+toleranced feature, can also limit other types of deviations for the same feature.
+— A location specification controls location deviation, orientation deviation and form deviation of the
+toleranced feature.
+— An orientation specification controls orientation and form deviations of the toleranced feature but
+cannot control its location.
+— A form specification controls only form deviations of the toleranced feature.
+

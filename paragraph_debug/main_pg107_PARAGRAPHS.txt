@@ -1,0 +1,29 @@
+--- BLOCK 1 ---
+The tolerance zone defined by the specification in Figure 163 is limited by a circle of diameter t ; the
+tolerance value shall be preceded by the symbol ⌀. The centre of the circular tolerance zone coincides
+with the datum point, see Figure 164.
+
+--- BLOCK 2 ---
+a
+
+--- BLOCK 3 ---
+Datum point A.
+
+--- BLOCK 4 ---
+Figure 164 — Definition of the concentricity tolerance zone
+
+--- BLOCK 5 ---
+17.14.3 Coaxiality specification of an axis
+In Figure 165 , the extracted median line of the toleranced cylinder shall be within a cylindrical zone of
+diameter 0,08, the axis of which is the common datum straight line A-B.
+
+--- BLOCK 6 ---
+a) 2D b) 3D
+
+--- BLOCK 7 ---
+Figure 165 — Coaxiality indication
+
+--- BLOCK 8 ---
+In Figure 166 , the extracted median line of the toleranced cylinder shall be within a cylindrical zone of
+diameter 0,1, the axis of which is datum axis A.
+

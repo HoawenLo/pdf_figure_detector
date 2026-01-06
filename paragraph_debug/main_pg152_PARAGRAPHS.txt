@@ -1,0 +1,13 @@
+--- BLOCK 1 ---
+NOTE The leftmost point of the direction feature indicator shall touch the tolerance indicator or any plane
+indicator indicated, see e.g. Figure 85.
+
+--- BLOCK 2 ---
+Figure F.4 — Direction feature indicator
+
+--- BLOCK 3 ---
+NOTE dn is the width of the narrow line.
+
+--- BLOCK 4 ---
+Figure F.5 — “Between” symbol
+

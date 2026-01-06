@@ -1,0 +1,28 @@
+--- BLOCK 1 ---
+Key
+a datum F
+b real feature or filtered feature
+c tangent feature (toleranced feature)
+NOTE The toleranced feature is a surface, but for ease of illustration it is shown as a line.
+
+--- BLOCK 2 ---
+Figure 32 — Tangent associated toleranced feature — Interpretation
+
+--- BLOCK 3 ---
+X
+
+--- BLOCK 4 ---
+shall be used to indicate that the toleranced feature is the associated maximum inscribed feature or
+its derived feature. The maximum inscribed feature association maximizes the size of the associated
+feature with the constraint that the associated feature is inscribed within the non-ideal feature. This
+specification element can X only be used for features of linear size.
+NOTE Although the specification element is usually used for internal features, e.g. holes as in Figure 33, it
+can also be used for external features, e.g. shafts.
+
+--- BLOCK 5 ---
+Figure 33 shows an example of a position specification that applies to the associated maximum
+inscribed feature. See also Figure 34.
+
+--- BLOCK 6 ---
+Figure 33 — Maximum inscribed associated toleranced feature — Drawing indication
+

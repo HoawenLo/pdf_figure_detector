@@ -1,0 +1,31 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 128 — Perpendicularity indication
+
+--- BLOCK 3 ---
+The tolerance zone defined by the specification in Figure 128 is limited by two parallel planes a distance
+t apart and perpendicular to the datum axis, see Figure 129.
+
+--- BLOCK 4 ---
+a
+
+--- BLOCK 5 ---
+Datum A.
+
+--- BLOCK 6 ---
+Figure 129 — Definition of the perpendicularity tolerance zone
+
+--- BLOCK 7 ---
+17.11.3 Perpendicularity specification of a median line related to a datum system
+In Figure 130 , the extracted median line of the cylinder shall be contained between two parallel planes
+0,1 apart, which are perpendicular to datum plane A and in the orientation specified with respect to
+datum plane B. Datum B is secondary to datum A, see 14.4. For former practice, see A.3.6.
+
+--- BLOCK 8 ---
+a) 2D b) 3D
+
+--- BLOCK 9 ---
+Figure 130 — Perpendicularity indication
+

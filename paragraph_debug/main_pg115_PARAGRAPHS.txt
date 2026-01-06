@@ -1,0 +1,27 @@
+--- BLOCK 1 ---
+a
+b
+
+--- BLOCK 2 ---
+Datum C.
+Tolerance zone.
+
+--- BLOCK 3 ---
+Figure 181 — Definition of the circular run-out tolerance zone
+
+--- BLOCK 4 ---
+17.16.5 Circular run-out specification in a specified direction
+In Figure 182 , the extracted line in any conical section corresponding to a direction feature (angle α)
+shall be contained between two circles 0,1 apart within the conical section.
+
+--- BLOCK 5 ---
+a) 2D b) 3D
+
+--- BLOCK 6 ---
+Figure 182 — Circular run-out indication
+
+--- BLOCK 7 ---
+The tolerance zone defined by the specification in Figure 182 is limited within any conical section of
+the specified angle by two circles a distance t apart, the axes of which coincide with the datum, see
+Figure 183.
+

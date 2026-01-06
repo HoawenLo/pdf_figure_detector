@@ -1,0 +1,44 @@
+--- BLOCK 1 ---
+a
+
+--- BLOCK 2 ---
+Datum A.
+
+--- BLOCK 3 ---
+Figure 86 — Interpretation
+
+--- BLOCK 4 ---
+The angle α shown in Figure 85 shall be indicated, even if it is equal to 90°.
+
+--- BLOCK 5 ---
+15.2 Features to be used for establishing direction features
+Only surfaces belonging to one of the following invariance classes shall be used to establish direction
+features (see ISO 17450-1):
+— revolute (e.g. a cone or a torus);
+— cylindrical (i.e. a cylinder);
+— planar (i.e. a plane).
+
+--- BLOCK 6 ---
+15.3 Graphical language
+When applied, the direction feature indicator, see Figure 87, shall be placed as an extension to the right
+of the tolerance indicator.
+
+--- BLOCK 7 ---
+Figure 87 — Direction feature indicator
+
+--- BLOCK 8 ---
+If necessary, the reference line can be attached to the direction feature indicator instead of the tolerance
+indicator, see Figure 46 . The direction symbol for parallelism, perpendicularity, angularity or run-out
+shall be placed in the first compartment of the direction feature indicator.
+NOTE The run-out symbol is used to imply that the direction of the width of the tolerance zone is equal to
+run-out, i.e. perpendicular to the surface of the toleranced feature, see e.g. Figure 182
+
+--- BLOCK 9 ---
+The letter identifying the datum used to establish the direction feature shall be placed in the second
+compartment of the direction feature indicator (see Figure 87).
+
+--- BLOCK 10 ---
+15.4 Rules
+A direction feature shall be indicated when
+— the toleranced feature is an integral feature, and
+

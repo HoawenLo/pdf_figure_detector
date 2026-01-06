@@ -1,0 +1,30 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 177 — Circular run-out indication
+
+--- BLOCK 3 ---
+The tolerance zone defined by the specification in Figure 177 is limited in any cylindrical section by
+two circles an axial distance of 0,1 apart lying in the cylindrical section, the axis of which coincides
+with the datum, see Figure 178.
+
+--- BLOCK 4 ---
+a
+b
+c
+
+--- BLOCK 5 ---
+Datum D.
+Tolerance zone.
+Any diameter coaxial with datum D.
+
+--- BLOCK 6 ---
+Figure 178 — Definition of the circular runout tolerance zone
+
+--- BLOCK 7 ---
+17.16.4 Circular runout in any direction
+In Figure 179 , the extracted line in any conical section, with an apex angle such that the section
+is perpendicular to the toleranced feature, the axis of which coincides with datum axis C, shall be
+contained between two circles within the conical section with a distance of 0,1.
+

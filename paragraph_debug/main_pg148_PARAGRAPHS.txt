@@ -1,0 +1,31 @@
+--- BLOCK 1 ---
+Figure E.13 — Example of a roundness specification — Gaussian filter
+
+--- BLOCK 2 ---
+Figure E.14 shows an example of a cylindricity specification. The specification element CB indicates that
+a closing ball filter is specified. The value “1,5” indicates that a 1,5 mm radius ball shall be used as the
+structuring element and because it is followed by “-” it is a long-wave pass filter, which removes short
+wavelengths. The filtered surface shall be contained in a tolerance zone defined as the space between
+two coaxial cylinders with a 0,05 mm radius difference.
+
+--- BLOCK 3 ---
+Figure E.14 — Example of a cylindricity specification — Closing ball filter
+
+--- BLOCK 4 ---
+Figure E.15 shows an example of a flatness specification with two different long-wave pass filters. The
+first specification element S indicates that a spline filter is specified in the direction indicated by the
+intersection plane. The value 0,25 indicates a 0,25 mm cutoff and because it is followed by “-” it is a long-
+wave pass filter, which removes wavelengths shorter than the cutoff value. “×” is used to separate the
+two filter indications. The second specification element G indicates that a Gaussian filter is specified in
+the direction perpendicular to the direction indicated by the intersection plane. The value 0,8 indicates
+a 0,8 mm cutoff and because it is followed by “-” it is a long-wave pass filter, which removes wavelengths
+shorter than the cutoff value. The specification therefore applies to a feature that has been filtered with
+a 0,25 mm long-wave pass spline filter in one direction and a 0,8 mm long-wave pass Gaussian filter in
+the perpendicular direction. The filtered surface shall be contained between two planes 0,02 mm apart.
+
+--- BLOCK 5 ---
+a) 2D b) 3D
+
+--- BLOCK 6 ---
+Figure E.15 — Example of a flatness specification with two different long-wave pass filters
+

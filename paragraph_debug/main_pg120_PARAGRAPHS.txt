@@ -1,0 +1,37 @@
+--- BLOCK 1 ---
+A.2.4 In a 2D specification, orientation plane indicators can be omitted, instead relying on the direction
+of the dimension line to define the orientation of the tolerance zone, see Figure A.3. This practice has been
+deprecated to align the practices between 2D and 3D. For the preferred indication with the equivalent
+meaning, see Figure 152 a)
+
+--- BLOCK 2 ---
+Figure A.3
+
+--- BLOCK 3 ---
+A.3 Former practice from ISO 1101:2012
+The following drawing indications were described in ISO 1101:2012. Their use in practice has shown
+that their interpretation was ambiguous. Therefore, these drawing indications should no longer be used.
+
+--- BLOCK 4 ---
+A.3.1 It was a former practice to use the NC specification element to indicate that the toleranced
+feature should be “non-convex”, see Figure A.4. This specification element is no longer used, because it is
+ambiguous what exactly constitutes a non-convex feature, i.e. how close to the edge of the feature should
+a plane contact the feature for it to be considered non-convex. There is no replacement for this indication
+in this document, since it is a qualitative concept. If needed, it can be added as a note on the drawing.
+
+--- BLOCK 5 ---
+Figure A.4
+
+--- BLOCK 6 ---
+A.3.2 It was a former practice to use the “from…to” symbol “ ” if the tolerance value was variable
+along the toleranced feature. Because the specification was unambiguous without the separate “from…
+to” symbol, practice has been changed to use the “between” symbol “ ” together with the letters
+identifying the start and the end of the toleranced feature in all cases where a specification either applies
+to a restricted part of a feature or the tolerance value was variable. For the current indication, see
+Figure 14.
+
+--- BLOCK 7 ---
+A.3.3 It was former practice that for all revolutes, the default direction for roundness specifications
+was perpendicular to the associated axis of the revolute surface, see Figure A.5. This was an exception to
+the general rule that geometrical specifications for integral features apply perpendicular to the surface. A
+

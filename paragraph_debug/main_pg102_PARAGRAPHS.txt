@@ -1,0 +1,20 @@
+--- BLOCK 1 ---
+In Figure 155 , the extracted median line of each hole shall be within a cylindrical zone of diameter 0,1,
+the axis of which coincides with the theoretically exact position of the considered hole, with respect to
+datum planes C, A, and B.
+
+--- BLOCK 2 ---
+a) 2D
+
+--- BLOCK 3 ---
+b) 3D
+
+--- BLOCK 4 ---
+Figure 155 — Position indication
+
+--- BLOCK 5 ---
+The tolerance zones defined by the specifications in Figure 154 and Figure 155 are limited by a cylinder
+of diameter t , because the tolerance value is preceded by the symbol ⌀. The axis of the cylindrical
+tolerance zone is fixed by theoretically exact dimensions with respect to datums C, A and B, see
+Figure 156.
+

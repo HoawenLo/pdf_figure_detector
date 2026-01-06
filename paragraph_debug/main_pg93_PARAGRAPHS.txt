@@ -1,0 +1,41 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 138 — Perpendicularity indication
+
+--- BLOCK 3 ---
+NOTE The rotation of the tolerance zone around the normal of the datum plane is not defined with the
+indication given in Figure 138 , only the direction is specified.
+
+--- BLOCK 4 ---
+The tolerance zone defined by the specification in Figure 138 is limited by two parallel planes a distance
+t apart and perpendicular to the datum, see Figure 139.
+
+--- BLOCK 5 ---
+a
+
+--- BLOCK 6 ---
+Datum A.
+
+--- BLOCK 7 ---
+Figure 139 — Definition of the perpendicularity tolerance zone
+
+--- BLOCK 8 ---
+17.12 Angularity specification
+
+--- BLOCK 9 ---
+17.12.1 General
+The toleranced feature can be an integral feature or a derived feature. The nature of the nominal
+toleranced feature is a linear feature, a set of linear features or an areal feature. The shape of each
+nominal toleranced feature is explicitly given as a straight line or a flat surface. If the indicated feature
+is a nominally flat surface and the toleranced feature is a set of straight lines in that surface, an
+intersection plane indicator shall be indicated. The TED angles that are locked between the nominal
+toleranced feature and the datums shall be defined by at least one explicit TED. Additional angles may
+be defined by implicit TEDs (0° or 90°).
+
+--- BLOCK 10 ---
+17.12.2 Angularity specification of a median line related to a datum straight line
+In Figure 140, the extracted median line shall be contained between two parallel planes 0,08 apart that
+are inclined at a theoretically exact angle of 60° to the common datum straight line A-B.
+

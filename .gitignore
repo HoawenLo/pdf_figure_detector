@@ -1,0 +1,8 @@
+# Ignore all images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.pyc

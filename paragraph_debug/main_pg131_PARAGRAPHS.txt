@@ -1,0 +1,43 @@
+--- BLOCK 1 ---
+— The areal nature of the nominal toleranced feature is explicitly given.
+— Line profile:
+— The shape of the nominal toleranced feature is explicitly given by complete indications on the
+drawing or by queries of the CAD model, see ISO 16792.
+— The linear nature of the nominal toleranced feature is explicitly given.
+
+--- BLOCK 2 ---
+B.10.3 Orientation specifications
+When an orientation specification uses the geometrical characteristic symbol of:
+— Parallelism, perpendicularity:
+— The shape of the nominal toleranced feature is a straight line or a plane.
+— When both are possible then the toleranced feature is by default the plane, unless an intersection
+plane indicator is indicated.
+— The TED angles between the nominal toleranced feature and the datum or datum system are
+implicitly defined as 0° for parallelism and 90° for perpendicularity.
+— Angularity:
+— The shape of the nominal toleranced feature is a straight line or a plane.
+— When both are possible then the toleranced feature is by default the plane, unless an intersection
+plane indicator is indicated.
+— At least one explicit TED angle between the nominal toleranced feature and the datum or datum
+system shall be defined.
+— Surface profile or line profile:
+— The shape of the nominal toleranced feature is explicitly given by the complete indications on
+the drawing or by queries of the CAD model, see ISO 16792.
+— The nature of the toleranced feature (linear or areal) is explicitly given by the symbol.
+— To indicate that the specification is an orientation specification, the modifier > < shall be placed
+in the second compartment of the tolerance indicator, or after each datum indication in the
+tolerance indicator. The angles between the nominal toleranced feature and the datums shall
+be indicated as TEDs.
+
+--- BLOCK 3 ---
+B.10.4 Location specifications
+When a location specification uses the geometrical characteristic symbol of:
+— Position:
+— The toleranced feature is an integral or a derived feature.
+— If the toleranced feature is an integral feature, the shape of the nominal toleranced feature is a
+point, a straight line or a plane.
+— If the toleranced feature is a derived feature, the shape of the nominal toleranced feature is a
+point, a line (straight or non-straight) or a surface (plane or not plane).
+— When more than one is possible then the toleranced feature is by default areal, unless an
+intersection plane indicator is indicated.
+

@@ -1,0 +1,39 @@
+--- BLOCK 1 ---
+a) Minimax (Chebyshev) association without additional constraints
+
+--- BLOCK 2 ---
+b) Minimax (Chebyshev) association with the constraint external to the material
+
+--- BLOCK 3 ---
+c) Minimax (Chebyshev) association with the constraint internal to the material
+
+--- BLOCK 4 ---
+a
+Toleranced feature.
+b
+Minimized maximum distances.
+c
+Minimax (Chebyshev) associated straight line without additional constraints – the reference feature with
+modifier .
+d
+Outside the material.
+e
+Inside the material.
+f
+Point of contact between the associated feature and the toleranced feature.
+g
+Minimax (Chebyshev) associated straight line with the constraint external to the material – the reference
+feature with modifier .
+h
+Minimax (Chebyshev) associated straight line with the constraint internal to the material – the reference
+feature with modifier .
+NOTE The tolerance indicators shown in this figure do not show a parameter specification element, see
+8.2.2.3.2 , so the characteristic specified is the total range of deviations, which is the default parameter.
+
+--- BLOCK 5 ---
+Figure 38 — Minimax (Chebyshev) associations
+
+--- BLOCK 6 ---
+— shall be used to indicate the least squares (Gaussian) association. It minimizes the square of the
+local deviations of the toleranced feature to the reference feature.
+

@@ -1,0 +1,35 @@
+--- BLOCK 1 ---
+Figure 41 — Specification using the least squares (Gaussian) reference feature specification
+element
+
+--- BLOCK 2 ---
+Figure 42 shows an example of a roundness specification that applies relative to the minimum
+circumscribed reference feature after the application of a Gaussian long-wave pass filter with a cutoff
+value of 50 UPR. The filter type specification element shall always be followed by the nesting index
+value and the reference feature specification element consists of letters only. When they both apply in
+the same specification, the filter type specification element shall always precede the reference feature
+specification element.
+
+--- BLOCK 3 ---
+Figure 42 — Specification using a filter specification element and the minimum circumscribed
+reference feature specification element
+
+--- BLOCK 4 ---
+8.2.2.3.2 Parameter specification element
+The default parameter that applies when no specification element is indicated is the total range
+of deviations, i.e. the distance from the lowest valley on the toleranced feature to the reference
+feature plus the distance from the highest peak of the toleranced feature to the reference feature.
+The parameter specification element is an optional specification element. It can be used for form
+specifications, i.e. specifications that do not reference datums, and other specifications that have at
+least one unconstrained non-redundant degree of freedom.
+The following parameter specification elements are available.
+— may be used to indicate the total range of deviations, i.e. the default parameter, see Figure 43.
+— shall be used to indicate the peak height, i.e. the distance from the highest peak of the toleranced
+feature to the reference feature. The peak height is only defined relative to the minimax (Chebyshev)
+association and the least squares (Gaussian) association, i.e. the association specification elements
+and , see Figure 43.
+— shall be used to indicate the valley depth, i.e. the distance from the lowest valley of the toleranced
+feature to the reference feature. The valley depth is only defined relative to the minimax (Chebyshev)
+association and the least squares (Gaussian) association, i.e. the association specification elements
+and , see Figure 43.
+

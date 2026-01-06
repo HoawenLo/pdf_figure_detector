@@ -1,0 +1,18 @@
+--- BLOCK 1 ---
+a) 0,8 mm long-pass Gaussian filter
+
+--- BLOCK 2 ---
+b) 2,5 mm long-pass Gaussian filter
+
+--- BLOCK 3 ---
+Key
+1 unfiltered profile (grey)
+2 filtered profile (black)
+
+--- BLOCK 4 ---
+Figure E.6 — Surface profile filtered with a Gaussian filter
+
+--- BLOCK 5 ---
+Again, the filtered profile in Figure E.6 a) with the shorter cutoff length has more detail included than
+the filtered profile in Figure E.6 b), but in this case, the height ranges are significantly different. The
+

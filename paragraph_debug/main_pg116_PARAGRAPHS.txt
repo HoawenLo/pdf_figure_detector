@@ -1,0 +1,35 @@
+--- BLOCK 1 ---
+a
+b
+
+--- BLOCK 2 ---
+Datum C.
+Tolerance zone.
+
+--- BLOCK 3 ---
+Figure 183 — Definition of the circular run-out tolerance zone
+
+--- BLOCK 4 ---
+17.17 Total run-out specification
+
+--- BLOCK 5 ---
+17.17.1 General
+The toleranced feature is an integral feature. The nature and shape of the nominal toleranced feature is
+a flat surface or a cylindrical surface. The tolerance zone maintains the nominal shape of the toleranced
+feature, but for a cylindrical surface, the radial dimension is not constrained.
+
+--- BLOCK 6 ---
+17.17.2 Total run-out specification — Radial
+The extracted surface shall be contained between two coaxial cylinders with a difference in radii of 0,1
+and the axes coincident with the common datum straight line A-B.
+
+--- BLOCK 7 ---
+a) 2D b) 3D
+
+--- BLOCK 8 ---
+Figure 184 — Total run-out indication
+
+--- BLOCK 9 ---
+The tolerance zone defined by the specification in Figure 184 is limited by two coaxial cylinders with a
+difference in radii of , the axes of which coincide with the datum, see Figure 185. t
+

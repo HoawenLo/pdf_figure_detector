@@ -1,0 +1,25 @@
+--- BLOCK 1 ---
+a
+
+--- BLOCK 2 ---
+Common datum A-B.
+
+--- BLOCK 3 ---
+Figure 185 — Definition of the total run-out tolerance zone
+
+--- BLOCK 4 ---
+17.17.3 Total run-out specification – Axial
+In Figure 186, the extracted surface shall be contained between two parallel planes 0,1 apart, which
+are perpendicular to datum axis D.
+NOTE A perpendicularity specification would have the same meaning.
+
+--- BLOCK 5 ---
+a) 2D b) 3D
+
+--- BLOCK 6 ---
+Figure 186 — Total run-out indication
+
+--- BLOCK 7 ---
+The tolerance zone defined by the specification in Figure 186 is limited by two parallel planes a distance
+0,1 apart and perpendicular to the datum, see Figure 187.
+

@@ -1,0 +1,27 @@
+--- BLOCK 1 ---
+Figure A.9
+
+--- BLOCK 2 ---
+Figure A.10
+
+--- BLOCK 3 ---
+Figure A.11
+
+--- BLOCK 4 ---
+This is not precise when used in 2D and ambiguous when used in 3D. The current indication with the
+identical meaning is shown in Figure 116, Figure 114, Figure 130 and Figure 132 , respectively.
+
+--- BLOCK 5 ---
+A.3.7 It was a former practice to rely on common practice amongst metrologists, e.g. in terms of
+measuring instrument characteristics, sampling density and filter settings to limit the variability of results
+seen in verification in the absence of explicit filtering specifications. Because different metrologists made
+different choices, this led to variation in results and therefore ambiguity in the specification. Where
+such variations were excessive or influenced the function of the workpiece, drawing notes or inspection
+instructions were typically used to limit the variation. This document introduces specification elements
+to indicate filtering, see 8.2.2.2.1 and Annexes C and E
+
+--- BLOCK 6 ---
+A.3.8 It was a former practice to indicate a datum on a cylindrical part as shown in Figure A.12 and
+Figure A.13. These indications are ambiguous and should be avoided. In some countries and companies,
+Figure A.12 was interpreted as referring to the hole as the datum feature and Figure A.13 was interpreted
+

@@ -1,0 +1,28 @@
+--- BLOCK 1 ---
+If the specification applies to several toleranced features, n × or several leader lines can be used to
+identify the toleranced features, or they can be identified as given in 9.1.2. If the toleranced features are
+to be considered as one united feature, the specification element shall be added, see Figure 48, where
+a cylindrical feature is defined from a collection of curved features and Figure 55, where the entire
+workpiece is considered one united feature. In this case, the specification defines one tolerance zone for
+the united feature.
+
+--- BLOCK 2 ---
+Figure 47 — Indication that the specification applies in any cross-section
+
+--- BLOCK 3 ---
+Figure 48 — Indication of a specification that applies to a united feature
+
+--- BLOCK 4 ---
+Specifications for screw threads apply to the axis derived from the pitch cylinder by default. “ ” shall
+be indicated to designate the major diameter and “ ” to designate the minor diameter. Specifications
+and datums specified for splines and gears shall always designate the specific feature to which they
+apply, i.e. “ ” for pitch diameter, “ ” for major diameter or “ ” for minor diameter, see Figure 49.
+
+--- BLOCK 5 ---
+Figure 49 — Indication of a specification to the major diameter of a thread
+
+--- BLOCK 6 ---
+NOTE The interpretation of geometrical specifications on the real workpiece for pitch diameter features,
+major diameter features and minor diameter features and features derived from these (e.g. the median line of the
+pitch diameter feature) are currently not well defined in GPS standards.
+

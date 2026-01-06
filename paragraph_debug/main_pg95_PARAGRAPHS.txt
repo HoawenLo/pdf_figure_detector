@@ -1,0 +1,24 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 142 — Angularity
+
+--- BLOCK 3 ---
+The tolerance zone defined by the specification in Figure 142 is limited by a cylinder of diameter t
+inclined at the specified angle to the datum. The considered line and the datum line are not in the same
+plane, see Figure 143.
+
+--- BLOCK 4 ---
+a
+Common datum A-B.
+NOTE The distance from the tolerance zone to common datum A-B is not constrained.
+
+--- BLOCK 5 ---
+Figure 143 — Definition of the angularity tolerance zone
+
+--- BLOCK 6 ---
+17.12.3 Angularity specification for a median line related to a datum system
+In Figure 144 , the extracted median line shall be within a cylindrical tolerance zone of diameter 0,1 that
+is parallel to datum plane B and inclined at a theoretically exact angle of 60° to datum plane A.
+

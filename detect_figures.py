@@ -101,3 +101,7 @@ print("Done!")
 ### To add if box too small discard as this will be noise, and figures are only ever large
 ### Or use VLM to determine if it is table or an actual diagram
 ### Use VLM to determine if figure needs to be separated into seperate diagrams based off the input page, perhaps give a confidence score
+
+### Current issues > diagrams connected, small symbols in text (perhaps if you detect chars, and if non character box is surrounded in a character box discard it as non text?)
+### > diagrams connected > tune the margin, use VLM to identify, with VLM must include confidence score for manual checking.
+### > Is it a table or diagram

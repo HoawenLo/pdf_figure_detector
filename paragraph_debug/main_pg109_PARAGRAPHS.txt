@@ -1,0 +1,38 @@
+--- BLOCK 1 ---
+17.15 Symmetry specification
+
+--- BLOCK 2 ---
+17.15.1 General
+The toleranced feature is either an integral feature or a derived feature. The nature and shape of the
+nominal toleranced feature is a point, a set of points, a straight line, a set of straight lines, or a flat
+surface. If the indicated feature is a nominally flat surface, an intersection plane indicator shall be
+indicated, if the toleranced feature is a set of straight lines in the surface. If the indicated feature is a
+nominally straight line, the specification element ACS shall be indicated, if the toleranced feature is a
+set of points on the line. In this case, the datum for each point is also a point in the same cross-section.
+At least one datum that locks a non-redundant translation of the tolerance zone shall be indicated in the
+tolerance indicator. The angular and linear dimensions that are locked between the nominal toleranced
+feature and the datums are defined by implicit TEDs.
+A symmetry specification can be used in all cases where a position specification can be used, provided
+all the relevant linear TEDs are zero.
+
+--- BLOCK 3 ---
+17.15.2 Symmetry specification of a median plane
+In Figure 169, the extracted median surface shall be contained between two parallel planes 0,08 apart,
+which are symmetrically disposed about datum plane A.
+
+--- BLOCK 4 ---
+a) 2D b) 3D
+
+--- BLOCK 5 ---
+Figure 169 — Symmetry indication
+
+--- BLOCK 6 ---
+In Figure 170, the extracted median surface shall be contained between two parallel planes 0,08 apart,
+which are symmetrically disposed about the common datum plane A-B.
+
+--- BLOCK 7 ---
+a) 2D b) 3D
+
+--- BLOCK 8 ---
+Figure 170 — Symmetry indication
+

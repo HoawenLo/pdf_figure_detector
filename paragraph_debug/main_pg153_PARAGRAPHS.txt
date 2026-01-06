@@ -1,0 +1,52 @@
+--- BLOCK 1 ---
+Annex G
+
+--- BLOCK 2 ---
+(informative)
+Relation to the GPS matrix model
+
+--- BLOCK 3 ---
+G.1 General
+For full details about the GPS matrix model, see ISO 14638.
+The ISO GPS Masterplan given in ISO 14638 gives an overview of the ISO GPS system of which this
+document is a part. The fundamental rules of ISO GPS given in ISO 8015 apply to this document.
+The default decision rules given in ISO 14253-1 apply to specifications made in accordance with this
+document, unless otherwise stated.
+
+--- BLOCK 4 ---
+G.2 Information about the standard and its use
+This document contains basic information for the geometrical tolerancing of workpieces. It represents
+the initial basis and describes the fundamentals for geometrical tolerancing.
+
+--- BLOCK 5 ---
+G.3 Position in the GPS matrix model
+This document is a general GPS standard, which influences the chain link A, B and C of the chains of
+standards on form, orientation, location and run out in the general GPS matrix, as graphically illustrated
+in Table G.1.
+
+--- BLOCK 6 ---
+Table G.1 — Position in the GPS matrix model
+Chain links
+A B C D E F G
+Symbols Feature Feature Conformance and Measurement Measurement Calibration
+and requirements properties non- equipment
+indications conformance
+Size
+Distance
+Form • • •
+Orientation • • •
+Location • • •
+Run-out • • •
+Profile
+surface
+texture
+Areal
+surface
+texture
+Surface
+imperfections
+
+--- BLOCK 7 ---
+G.4 Related standards
+The related standards are those of the chains of standards indicated in Table G.1.
+

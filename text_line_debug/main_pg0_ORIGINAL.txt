@@ -1,0 +1,26 @@
+Word                 | X0         | Top        | Font
+---------------------------------------------------------------------------
+BS                   | 393.82     | 86.59      | Frutiger-Bold
+EN                   | 419.83     | 86.59      | Frutiger-Bold
+ISO                  | 447.84     | 86.59      | Frutiger-Bold
+1101:2017            | 481.86     | 86.59      | Frutiger-Bold
+Geometrical          | 157.32     | 291.36     | Frutiger-Bold
+product              | 314.89     | 291.36     | Frutiger-Bold
+specifications       | 157.32     | 323.16     | Frutiger-Bold
+(GPS)                | 332.51     | 323.16     | Frutiger-Bold
+—                    | 406.13     | 323.16     | Frutiger-Bold
+Geometrical          | 157.32     | 354.96     | Frutiger-Bold
+tolerancing          | 314.89     | 354.96     | Frutiger-Bold
+—                    | 463.61     | 354.96     | Frutiger-Bold
+Tolerances           | 157.32     | 386.76     | Frutiger-Bold
+of                   | 294.27     | 386.76     | Frutiger-Bold
+form,                | 328.14     | 386.76     | Frutiger-Bold
+orientation,         | 403.24     | 386.76     | Frutiger-Bold
+location             | 157.32     | 418.56     | Frutiger-Bold
+and                  | 264.81     | 418.56     | Frutiger-Bold
+run-out              | 319.29     | 418.56     | Frutiger-Bold
+(ISO                 | 420.86     | 418.56     | Frutiger-Bold
+1101:2017)           | 157.32     | 450.36     | Frutiger-Bold
+BSI                  | 55.14      | 235.70     | USQZZC+FrutigerLTStd-Roman
+Standards            | 92.74      | 235.70     | USQZZC+FrutigerLTStd-Roman
+Publication          | 202.41     | 235.70     | USQZZC+FrutigerLTStd-Roman

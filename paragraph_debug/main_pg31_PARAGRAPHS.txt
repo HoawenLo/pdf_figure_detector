@@ -1,0 +1,50 @@
+--- BLOCK 1 ---
+Currently, there is no default filtering defined in the GPS standards. Consequently, the filtering is
+undefined if it is not explicitly given using these specification elements or other means, see also C.3.
+This adds an ambiguity of specification, see ISO 17450-2.
+NOTE See A.3.7 for former filtering practice.
+
+--- BLOCK 2 ---
+The filter specification is an optional specification element. The specified filtering of the toleranced
+feature shall be indicated by a combination of two specification elements. One indicates the type of
+filter specified, the other indicates the nesting index or indices for the filter.
+The symbols for the standardized filters are given in Table C.1 . For details on the effect of filters and
+examples of filter indications, see Annex E.
+The nesting indices and their meaning for each filter type are given in Table C.2 . For a long-wave pass filter
+the index shall be followed by a “-”. For a short-wave pass filter the index shall be preceded by a “-” . For a
+band pass filter using the same filter type for both sides, the long-wave pass filter index shall be given first
+and the short-wave pass filter index shall be given second. The indices shall be separated by a “-” .
+For Fourier filters only, indicated by the specification element F (Fourier), a single value shall be
+indicated when the specification applies to a single harmonic (wavelength or UPR number). If the
+specification applies to a filtered feature containing a range of harmonics, the indication shall follow
+the rules given above.
+For band pass filters using different filter types, the long-wave pass filter shall be indicated before the
+short-wave pass filter.
+In the specification operator for band pass filters, the long-wave pass filter shall be applied before the
+short-wave pass filter.
+Short-wave pass filters and band pass filters shall only be used for form specifications, i.e. specifications
+that do not reference datums, because they remove the location and orientation attributes from the
+toleranced feature.
+For open features, e.g. straight lines, planes and cylinders in the axial direction, the nesting index shall
+be indicated in mm. For closed features, e.g. cylinders in the circumferential direction, tori and spheres,
+the nesting index shall be indicated in UPR (undulations per revolution). The units shall not be indicated.
+If two different filters shall be used in the two directions for a feature that is open in both directions,
+e.g. a plane, an intersection plane indicator shall be used to indicate the direction in which the first
+indicated filter shall be applied. “×” shall be used to separate the two filter indications. The second
+indicated filter shall be applied in the direction perpendicular to the first filter direction.
+For a feature that is open in one direction and closed in the other direction, e.g. a cylinder, the filter
+for the open direction shall be indicated before the filter for the closed direction. “×” shall be used to
+separate the two filter indications.
+If both filters are of the same type, regardless of whether the two directions are both open (e.g. a plane),
+both closed (e.g. a sphere) or one of each (e.g. a cylinder), the filter type shall be indicated only once.
+When the toleranced feature is a derived feature or an associated feature, the filtration shall be applied
+on the integral feature before the derivation or association operation.
+See E.2 for examples of specifications using filters.
+
+--- BLOCK 3 ---
+8.2.2.2.2 Associated toleranced feature specification element
+By default, the specification applies to the indicated extracted integral or derived feature itself. The
+associated toleranced feature specification element is an optional specification element. It shall be
+used to indicate that the specification does not apply to the indicated feature itself, but to a feature
+associated with it. If a filter is indicated, the association shall be to the filtered feature.
+

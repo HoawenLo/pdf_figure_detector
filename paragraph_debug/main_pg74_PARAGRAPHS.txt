@@ -1,0 +1,27 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 98 — Roundness indication
+
+--- BLOCK 3 ---
+The tolerance zone defined by the specification in Figure 98, in the considered cross-section, is limited
+by two concentric circles with a difference in radii of t , see Figure 99.
+
+--- BLOCK 4 ---
+a
+
+--- BLOCK 5 ---
+Any intersection plane (any cross-section).
+
+--- BLOCK 6 ---
+Figure 99 — Definition of the roundness tolerance zone
+
+--- BLOCK 7 ---
+In Figure 100 , an extracted circumferential line exists in any cross-section of the surface defined by an
+intersection of the toleranced feature with a cone that is coaxial with the toleranced feature and has a
+cone angle such that the cone is perpendicular to the toleranced feature. This extracted circumferential
+line shall be contained between two circles on the intersecting cone separated by 0,1, i.e. a tolerance
+zone that is perpendicular to the surface of the toleranced feature, as indicated by the direction
+indicator. A direction indicator shall always be indicated for roundness of conical features.
+

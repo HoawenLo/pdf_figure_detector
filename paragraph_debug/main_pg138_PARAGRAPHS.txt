@@ -1,0 +1,36 @@
+--- BLOCK 1 ---
+Annex E
+
+--- BLOCK 2 ---
+(informative)
+Filter details
+
+--- BLOCK 3 ---
+E.1 Introduction to filters
+Different workpiece functions interact with the surface of the workpiece in different ways. Some
+functions may depend on the finest details in the surface, whereas others may depend only on the
+general shape of the surface. Filters are used to disregard some level of details from a feature, allowing
+the specification to better define requirements to the remaining surface details. Different filters remove
+different types of details and can be used to better express different functions with the specification.
+Some filters tend to disregard the extremes of the surface and focus on the average level of the surface,
+where other filters tend to focus on either the highest peaks or the lowest valleys in the surface. It is
+entirely dependent on the function of the surface which filter best describes the functional needs of the
+surface.
+Figure E.1 shows an unfiltered profile, i.e. a line in a surface. The profile is 50 mm long and has a total
+height range of slightly more than 40 µm. The vertical scale in Figures E.1 to E.8 is magnified compared
+to the horizontal scale to make the height variations visible. This gives a distorted picture of the profile,
+making it look rougher than it really is. In the following, profiles are used to illustrate the effect of
+filters. Filters can also be used for areal features, i.e. planes, cylinders, etc., but for ease of illustration,
+profiles are used here.
+
+--- BLOCK 4 ---
+Key
+1 unfiltered profile
+
+--- BLOCK 5 ---
+Figure E.1 — Unfiltered surface profile
+
+--- BLOCK 6 ---
+Gaussian, spline and wavelet filters all work in fundamentally the same way. They split the profile in
+a short-wave portion and a long-wave portion and disregard one or the other. For the purposes of this
+

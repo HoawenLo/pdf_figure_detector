@@ -1,0 +1,22 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 179 — Circular run-out indication
+
+--- BLOCK 3 ---
+When the generator line for the toleranced feature is not straight, as in Figure 180, the apex angle of the
+conical section will change depending on the actual position to remain perpendicular to the toleranced
+feature.
+
+--- BLOCK 4 ---
+a) 2D b) 3D
+
+--- BLOCK 5 ---
+Figure 180 — Circular run-out indication
+
+--- BLOCK 6 ---
+The tolerance zone defined by the specification in Figure 180 is limited within any conical section by
+two circles a distance of 0,1 apart, the axes of which coincide with the datum, see Figure 181.
+The width of the tolerance zone is normal to the specified geometry unless otherwise indicated.
+

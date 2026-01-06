@@ -1,0 +1,27 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 144 — Angularity indication
+
+--- BLOCK 3 ---
+The tolerance zone defined by the specification in Figure 144 is limited by a cylinder of diameter t ,
+because the tolerance value is preceded by the symbol ⌀. The cylindrical tolerance zone is parallel to a
+datum plane B and inclined at the specified angle to datum plane A, see Figure 145.
+
+--- BLOCK 4 ---
+a
+b
+
+--- BLOCK 5 ---
+Datum A.
+Datum B.
+
+--- BLOCK 6 ---
+Figure 145 — Definition of the angularity tolerance zone
+
+--- BLOCK 7 ---
+17.12.4 Angularity specification for a planar surface related to a datum straight line
+In Figure 146, the extracted surface shall be contained between two parallel planes 0,1 apart that are
+inclined at a theoretically exact angle of 75° to datum axis A.
+

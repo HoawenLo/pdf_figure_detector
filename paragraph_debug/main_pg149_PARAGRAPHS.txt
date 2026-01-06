@@ -1,0 +1,41 @@
+--- BLOCK 1 ---
+Figure E.16 shows an example of a cylindricity specification. The specification element G indicates that
+a Gaussian filter is specified. Because it is a cylindricity specification, the toleranced feature is an open
+feature in the axial direction and a closed feature in the circumferential direction. The nesting index
+in the axial direction is therefore given in mm and the nesting index in the circumferential direction is
+given in UPR. By convention, the axial filter value is given before the circumferential filter value. The
+value 8 therefore indicates 8 mm and the value 15 indicates 15 UPR. Because each of them is followed
+by “-” they are both long-wave pass filters. The specification therefore applies to a feature that has been
+filtered with an 8 mm Gaussian long-wave pass filter in the axial direction and a 15 UPR Gaussian long-
+wave pass filter in the circumferential direction. The filtered surface shall be contained in a tolerance
+zone defined as the space between two coaxial cylinders with a 0,05 mm radius difference. Because
+both filters are of the same type, the type is not indicated twice as it was in Figure E.15.
+
+--- BLOCK 2 ---
+Figure E.16 — Example of a cylindricity specification — Gaussian filter
+
+--- BLOCK 3 ---
+Figure E.17 shows an example of a roundness specification. The specification element F (Fourier)
+indicates that the specification applies to a single harmonic (wavelength or UPR number) or a range
+of harmonics. The value 7 indicates 7 UPR as the identified harmonic, as the specification applies to
+a closed feature (a circle). The specification therefore applies to the 7th harmonic of the feature. Each
+individual filtered circumferential line shall be contained in a tolerance zone defined as the space
+between two concentric circles with 0,02 mm radius difference.
+NOTE Because UPR values are reverse of wavelengths and the short wavelength is indicated first, the higher
+UPR value is indicated first for band-pass filters for closed features.
+
+--- BLOCK 4 ---
+Figure E.17 — Example of a roundness specification that applied to a single or a range of
+harmonics
+
+--- BLOCK 5 ---
+An indication of e.g. “F7-” shall be used to indicate that the specification applies to a filtered feature that
+includes all harmonics longer than (lower UPR numbers) or equal to the indicated value, in this case all
+harmonics from 1 UPR to 7 UPR. An indication of e.g. “F-7” shall be used to indicate that the specification
+applies to a filtered feature that includes all harmonics shorter than (higher UPR numbers) or equal to
+the indicated value, in this case all harmonics from 7 UPR and higher. An indication of e.g. “F7-2” shall
+be used to indicate that the specification applies to a filtered feature that includes the indicated range
+of harmonics, in this case all harmonics from 2 UPR to 7 UPR.
+Figure E.18 shows an example of a position specification. The specification element H indicates that the
+specification applies to the feature after the application of a hull filter. The value 0 indicates that the
+

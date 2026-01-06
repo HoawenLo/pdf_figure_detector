@@ -1,0 +1,26 @@
+--- BLOCK 1 ---
+other and the transition from one tolerance zone to the next is the extensions of the two tolerance zones,
+resulting in sharp corners, a CZ specification element (combined zone) shall be used in conjunction with
+the “all around” or “all over” symbol. For former practice, see A.3.4.
+If the identified features shall be considered as one feature, the UF (united feature) specification
+element shall be used in conjunction with the “all around” or “all over” symbol.
+If a requirement applies to the set of line elements on the closed compound continuous surface (defined
+by a collection plane), an intersection plane indicator identifying the intersection plane shall also be
+placed between the tolerance indicator and the collection plane indicator [see Figure 51 a) and b)].
+
+--- BLOCK 2 ---
+a) 2D b) 3D
+NOTE 1 The drawing is incomplete. The nominal geometry of the profile is not defined.
+NOTE 2 When using the line profile symbol, if the intersection plane and the collection plane are the same, the
+collection plane symbol can be omitted.
+
+--- BLOCK 3 ---
+Figure 51 — All around drawing indication
+
+--- BLOCK 4 ---
+Interpretation: The requirement indicated on the drawing applies as one combined zone to the lines a,
+b, c and d in all cross-sections.
+
+--- BLOCK 5 ---
+Figure 52 — All around interpretation
+

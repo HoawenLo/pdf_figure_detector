@@ -1,0 +1,58 @@
+--- BLOCK 1 ---
+13 Intersection planes
+
+--- BLOCK 2 ---
+13.1 Role of intersection planes
+Intersection planes shall be used to identify the orientation of line requirements, e.g. straightness of
+a line in a plane, line profile, orientation of a line element of a feature, see Figure 90 , and “all around”
+specifications for lines on surfaces.
+
+--- BLOCK 3 ---
+13.2 Features to be used for establishing a family of intersection planes
+Only surfaces belonging to one of the following invariance classes shall be used to establish a family of
+intersection planes (see ISO 17450-1):
+— revolute (e.g. a cone or a torus);
+— cylindrical (i.e. a cylinder);
+— planar (i.e. a plane).
+
+--- BLOCK 4 ---
+13.3 Graphical language
+The intersection plane shall be specified through an intersection plane indicator placed as an extension
+to the right of the tolerance indicator (see Figure 76).
+
+--- BLOCK 5 ---
+Figure 76 — Intersection plane indicator
+
+--- BLOCK 6 ---
+If necessary, the reference line can be attached to the intersection plane indicator instead of the
+tolerance indicator, see Figure 46 . The symbol defining how the intersection plane is constructed from
+the datum is placed in the first compartment of the intersection plane indicator. The symbols stand for:
+
+--- BLOCK 7 ---
+parallel;
+
+--- BLOCK 8 ---
+perpendicular;
+
+--- BLOCK 9 ---
+at a defined angle;
+
+--- BLOCK 10 ---
+symmetrical to (including).
+NOTE The symmetry symbol is used to indicate that the intersection plane includes (is symmetrical around)
+the datum.
+
+--- BLOCK 11 ---
+The letter identifying the datum used to establish the intersection plane is placed in the second
+compartment of the intersection plane indicator.
+
+--- BLOCK 12 ---
+13.4 Rules
+For geometrical specifications that include intersection plane indicators, the following applies.
+When the toleranced feature is a line on an integral feature, an intersection plane shall be indicated
+to avoid misinterpretation of the toleranced feature, except in the case of generatrix straightness or
+roundness of a cylinder, a cone or a sphere.
+For deprecated practice, see A.2.1 and A.2.2.
+When the toleranced feature is all the lines in a feature in a given direction, and the characteristic
+symbol does not explicitly indicate whether the toleranced feature is the planar feature or the lines in
+

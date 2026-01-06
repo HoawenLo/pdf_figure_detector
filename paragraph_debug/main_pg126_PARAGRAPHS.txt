@@ -1,0 +1,27 @@
+--- BLOCK 1 ---
+A.4.3 It was former practice to indicate datum letters without giving them an order of precedence (see
+Figure A.18 ). Therefore, it was not possible to clearly distinguish between the primary and secondary
+datum. For the current rules for datum feature indication, see ISO 5459.
+
+--- BLOCK 2 ---
+Figure A.18
+
+--- BLOCK 3 ---
+A.4.4 It was former practice to connect the tolerance indicator directly to the datum feature by a leader
+line (see Figures A.19 and A.20). The current indication with similar meaning is shown in Figure 126. For
+the current rules for datum feature indication, see ISO 5459.
+
+--- BLOCK 4 ---
+Figure A.19
+
+--- BLOCK 5 ---
+Figure A.20
+
+--- BLOCK 6 ---
+A.4.5 It was former practice to indicate the requirement for common zone by placing the label
+“common zone” near the tolerance indicator (see Figures A.21 and A.22). This was used as an alternate
+method to the method described in 8.2.2.1.2.
+
+--- BLOCK 7 ---
+Figure A.21
+

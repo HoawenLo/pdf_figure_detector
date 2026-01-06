@@ -1,0 +1,33 @@
+--- BLOCK 1 ---
+17.10.5 Parallelism specification of a set of lines in a surface related to a datum plane
+In Figure 122 , each extracted line, parallel to datum plane B as specified by the intersection plane
+indicator, shall be contained between two parallel lines 0,02 apart, which are parallel to datum plane A.
+Datum B is a primary datum, see 14.4. For deprecated 2D practice, see A.2.2.
+
+--- BLOCK 2 ---
+a) 2D b) 3D
+
+--- BLOCK 3 ---
+Figure 122 — Parallelism indication
+
+--- BLOCK 4 ---
+The tolerance zone defined by the specification in Figure 122 is limited by two parallel lines a distance
+t apart and oriented parallel to datum plane A, the lines lying in a plane parallel to datum plane B, see
+Figure 123.
+
+--- BLOCK 5 ---
+a
+b
+
+--- BLOCK 6 ---
+Datum A.
+Datum B.
+
+--- BLOCK 7 ---
+Figure 123 — Definition of the parallelism tolerance zone
+
+--- BLOCK 8 ---
+17.10.6 Parallelism specification of a planar surface related to a datum straight line
+In Figure 124, the extracted surface shall be contained between two parallel planes 0,1 apart, which are
+parallel to datum axis C.
+

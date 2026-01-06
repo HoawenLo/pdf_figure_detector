@@ -1,0 +1,28 @@
+--- BLOCK 1 ---
+direction feature indicator shall now always be used to indicate the direction of roundness specifications
+for revolute surfaces that are neither cylindrical nor spherical, e.g. cones, see Clause 15.
+
+--- BLOCK 2 ---
+NOTE The current indications with the identical meaning is shown in Figure 98.
+
+--- BLOCK 3 ---
+Figure A.5
+
+--- BLOCK 4 ---
+A.3.4 In former versions of this document, it was not clear whether a specification to a set of features,
+e.g. an “all around” specification such as the one shown in Figure A.6, created a set of tolerance zones that
+applied to each identified feature individually, as this document states explicitly in 9.1.2, see Figure 53,
+or one common zone that applied to all the toleranced features, see Figure 51. Therefore, it was a former
+practice in some countries and companies to interpret a specification for a set of features using an “all
+around” indication as defining one common zone that applied to all the toleranced features, locking them
+in orientation and location to each other.
+
+--- BLOCK 5 ---
+Figure A.6
+
+--- BLOCK 6 ---
+A.3.5 It was a former practice to interpret a profile specification to apply “from edge to edge” and
+interpret the specification as if united feature, UF, had been indicated, even though that violated the
+feature principle, see ISO 8015, and even though it was not clearly defined what constituted an edge, see
+Figure A.7. For the current indication for this meaning, see Figure 104.
+

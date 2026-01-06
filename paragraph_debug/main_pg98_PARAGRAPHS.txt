@@ -1,0 +1,41 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 148 — Angularity indication
+
+--- BLOCK 3 ---
+NOTE The rotation of the tolerance zone around the normal to the datum plane is not defined with the
+indication given in Figure 148 , only the direction is specified.
+
+--- BLOCK 4 ---
+The tolerance zone defined by the specification in Figure 148 is limited by two parallel planes a distance
+t apart and inclined at the specified angle to the datum, see Figure 149.
+
+--- BLOCK 5 ---
+a
+
+--- BLOCK 6 ---
+Datum A.
+
+--- BLOCK 7 ---
+Figure 149 — Definition of the angularity tolerance zone
+
+--- BLOCK 8 ---
+17.13 Position specification
+
+--- BLOCK 9 ---
+17.13.1 General
+The toleranced feature is either an integral feature or a derived feature. The nature and shape of the
+nominal toleranced feature is an integral or derived point, straight line or flat surface, a non-straight
+derived line or a non-flat derived surface, see also ISO 1660. The shape of the nominal toleranced feature,
+except in the case of a straight line or a flat surface, shall be explicitly given by complete indications on
+the drawing or by queries of the CAD model, see ISO 16792.
+
+--- BLOCK 10 ---
+17.13.2 Position specification of a derived point
+In Figure 150, the extracted centre of the sphere shall be within a spherical zone of diameter 0,3, the
+centre of which coincides with the theoretically exact position of the sphere, with respect to datum
+planes A and B and to datum median plane C.
+NOTE The definition of extracted centre of a sphere has not been standardized.
+

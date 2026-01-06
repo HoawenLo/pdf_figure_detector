@@ -1,0 +1,46 @@
+--- BLOCK 1 ---
+Geometrical product specifications (GPS) — Geometrical
+tolerancing — Tolerances of form, orientation, location
+and run-out
+
+--- BLOCK 2 ---
+IMPORTANT — The illustrations included in this document are intended to illustrate the text
+and/or to provide examples of the related technical drawing specification; these illustrations are
+not fully dimensioned and toleranced, showing only the relevant general principles. In particular,
+many illustrations do not contain filter specifications. As a consequence, the illustrations are
+not a representation of a complete workpiece, and are not of a quality that is required for use in
+industry (in terms of full conformity with the standards prepared by ISO/TC 10 and ISO/TC 213),
+and as such are not suitable for projection for teaching purposes.
+
+--- BLOCK 3 ---
+1 Scope
+This document defines the symbol language for geometrical specification of workpieces and the rules
+for its interpretation.
+It provides the foundation for geometrical specification.
+The illustrations in this document are intended to illustrate how a specification can be fully indicated
+with visible annotation (including e.g. TEDs).
+NOTE 1 Other International Standards referenced in Clause 2 and in Tables 3 and 4 provide more detailed
+information on geometrical tolerancing.
+NOTE 2 This document gives rules for explicit and direct indications of geometrical specifications.
+Alternatively, the same specifications can be indicated indirectly in accordance with ISO 16792 by attaching
+them to a 3D CAD model. In this case, it is possible that some elements of the specification are available through
+a query function or other interrogation of information on the model instead of being indicated using visible
+annotation.
+
+--- BLOCK 4 ---
+2 Normative references
+The following documents are referred to in the text in such a way that some or all of their content
+constitutes requirements of this document. For dated references, only the edition cited applies. For
+undated references, the latest edition of the referenced document (including any amendments) applies.
+ISO 128-24:1999, Technical drawings — General principles of presentation — Part 24: Lines on mechanical
+engineering drawings
+ISO 1660, Technical drawings — Dimensioning and tolerancing of profiles
+ISO 2692:2014, Geometrical product specifications (GPS) — Geometrical tolerancing — Maximum material
+requirement (MMR), least material requirement (LMR) and reciprocity requirement (RPR)
+ISO 5458, Geometrical Product Specifications (GPS) — Geometrical tolerancing — Positional tolerancing
+ISO 5459, Geometrical product specifications (GPS) — Geometrical tolerancing — Datums and datum systems
+ISO 8015:2011, Geometrical product specifications (GPS) — Fundamentals — Concepts, principles and rules
+ISO 10579:2010, Geometrical product specifications (GPS) — Dimensioning and tolerancing — Non-
+rigid parts
+ISO 13715, Technical drawings — Edges of undefined shape — Vocabulary and indications
+

@@ -1,0 +1,18 @@
+Word                 | X0         | Top        | Font
+---------------------------------------------------------------------------
+a                    | 70.87      | 281.35     | XELMPT+Cambria
+Datum                | 90.76      | 286.28     | XELMPT+Cambria
+D.                   | 121.68     | 286.28     | XELMPT+Cambria
+b                    | 70.87      | 296.21     | XELMPT+Cambria
+Extracted            | 90.76      | 301.14     | XELMPT+Cambria
+surface.             | 133.91     | 301.14     | XELMPT+Cambria
+Figure               | 164.69     | 308.62     | XELMPT+Cambria-Bold
+187                  | 200.63     | 308.62     | XELMPT+Cambria-Bold
+—                    | 222.35     | 308.62     | XELMPT+Cambria-Bold
+Definition           | 235.77     | 308.62     | XELMPT+Cambria-Bold
+of                   | 290.12     | 308.62     | XELMPT+Cambria-Bold
+the                  | 302.33     | 308.62     | XELMPT+Cambria-Bold
+total                | 321.47     | 308.62     | XELMPT+Cambria-Bold
+run-out              | 348.12     | 308.62     | XELMPT+Cambria-Bold
+tolerance            | 389.86     | 308.62     | XELMPT+Cambria-Bold
+zone                 | 440.66     | 308.62     | XELMPT+Cambria-Bold

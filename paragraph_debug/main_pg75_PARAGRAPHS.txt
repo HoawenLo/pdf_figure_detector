@@ -1,0 +1,32 @@
+--- BLOCK 1 ---
+a) 2D b) 3D
+
+--- BLOCK 2 ---
+Figure 100 — Roundness indication
+
+--- BLOCK 3 ---
+The tolerance zone defined by the specification in Figure 100, in the considered cross-section, is limited
+by two circles on a conical surface a distance t apart along the surface, see Figure 101.
+
+--- BLOCK 4 ---
+a
+
+--- BLOCK 5 ---
+Circles perpendicular to datum C (the axis of the toleranced feature), on a conical surface perpendicular to the
+surface of the toleranced feature.
+
+--- BLOCK 6 ---
+Figure 101 — Definition of the roundness tolerance zone
+
+--- BLOCK 7 ---
+The direction feature indicator, which shall always be indicated for revolute surfaces that are neither
+cylindrical nor spherical, can be used to indicate roundness perpendicular to the surface or at a defined
+angle to the axis of the toleranced feature, see Clause 15. For former practice, see A.3.3.
+
+--- BLOCK 8 ---
+17.5 Cylindricity specification
+The toleranced feature is an integral feature. The nature and shape of the nominal toleranced feature is
+explicitly given as a cylindrical surface, which is an areal feature.
+In Figure 102 , the extracted cylindrical surface shall be contained between two coaxial cylinders with
+a difference in radii of 0,1.
+

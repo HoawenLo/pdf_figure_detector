@@ -1,0 +1,47 @@
+--- BLOCK 1 ---
+8 Geometrical specification indication
+
+--- BLOCK 2 ---
+8.1 General
+A geometrical specification indication consists of a tolerance indicator, optional plane and feature
+indications and optional adjacent indications. See Figure 11.
+
+--- BLOCK 3 ---
+Key
+a tolerance indicator
+b plane and feature indicator
+c adjacent indications
+
+--- BLOCK 4 ---
+Figure 11 — Elements of a geometrical specification indication
+
+--- BLOCK 5 ---
+The geometrical specification indication shall be connected to the leader line by a reference line.
+The reference line shall be attached to the mid-point of the left hand end or the right hand end of the
+tolerance indicator, if there is no optional plane and feature indication. If there are optional plane and
+feature indication(s), the reference line shall be attached to the mid-point of the left hand end of the
+tolerance indicator or the mid-point of the right hand end of the last plane and feature indicator. This
+applies both in 2D and 3D.
+
+--- BLOCK 6 ---
+8.2 Tolerance indicator
+The requirements shall be indicated in a rectangular frame which is divided into two or three sections.
+The third, optional, datum section may consist of one to three compartments. The sections are always
+arranged from left to right as in Figure 12.
+
+--- BLOCK 7 ---
+Figure 12 — Three sections of the tolerance indicator
+
+--- BLOCK 8 ---
+NOTE The tolerance indicator was formerly called the tolerance frame.
+
+--- BLOCK 9 ---
+8.2.1 Symbol section
+The symbol section shall contain the symbol for the geometrical characteristic. See Table 2.
+
+--- BLOCK 10 ---
+8.2.2 Zone, feature and characteristic section
+An overview of which specification elements can be used in the zone, feature and characteristic section
+of the tolerance indicator is shown in Figure 13. Figure 13 also shows the grouping and sequence in
+which these specification elements shall be indicated.
+

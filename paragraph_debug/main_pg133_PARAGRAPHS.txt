@@ -1,0 +1,14 @@
+--- BLOCK 1 ---
+— Roundness of a sphere or a cylinder: The intersection plane is a plane perpendicular to the derived
+feature established from the extracted integral feature, when the derived feature is an axis, or a
+plane including the derived feature, when the derived feature is a point.
+In other cases, the intersection plane shall be defined explicitly.
+
+--- BLOCK 2 ---
+B.10.6 Any cross-section
+When the modifier ACS is indicated adjacent to the tolerance indicator, the toleranced feature and the
+relevant datum are defined in each cross-section independently. The intersection plane defining the
+toleranced feature is by definition a plane perpendicular to the median feature of the associated feature
+established from the extracted integral surface.
+NOTE The ACS modifier can only be used when the derived feature of the toleranced feature is a line.
+

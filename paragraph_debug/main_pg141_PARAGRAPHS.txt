@@ -1,0 +1,14 @@
+--- BLOCK 1 ---
+Key
+1 unfiltered profile
+2 filtered profile
+
+--- BLOCK 2 ---
+Figure E.4 — Surface profile filtered with a convex hull filter
+
+--- BLOCK 3 ---
+The convex hull filter is a long-pass filter. It removes almost all the details in the profile and considers only
+the highest peaks. In this case, the resulting filtered profile also has a total height range of about 25 µm.
+Figure E.5 shows a different surface profile. Like the profile in Figure E.1 it is 50 mm long and has a
+total height range of slightly more than 40 µm, but the structure of the surface is different.
+
