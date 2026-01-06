@@ -2,6 +2,8 @@ import pdfplumber
 import os
 import re
 import json
+import base64
+from io import BytesIO
 from collections import defaultdict
 
 # --- CONFIGURATION ---
@@ -207,9 +209,56 @@ def filter_lines_in_tables(line_blocks, table_sections):
             
     return filtered_lines
 
+def get_image_data(page, bbox):
+    """Crops the page to the figure area and returns base64 encoded string."""
+    try:
+        # Crop and convert to image
+        crop = page.crop(bbox)
+        img = crop.to_image(resolution=RESOLUTION)
+        
+        buffered = BytesIO()
+        img.original.save(buffered, format="PNG")
+        return base64.b64encode(buffered.getvalue()).decode('utf-8')
+    except Exception:
+        return None
+
+def format_page_data(page, table_sections, paragraphs, figure_sections):
+    """Groups all elements into a sorted list of dictionaries."""
+    page_contents = []
+
+    # 1. Format Tables
+    for t_bbox in table_sections:
+        page_contents.append({
+            "Category": "table",
+            "contents": page.crop(t_bbox).extract_table(),
+            "coordinates": list(t_bbox)
+        })
+
+    # 2. Format Paragraphs
+    for p in paragraphs:
+        page_contents.append({
+            "Category": "paragraph",
+            "contents": p["text"],
+            "coordinates": [p["x0"], p["top"], p["x1"], p["bottom"]]
+        })
+
+    # 3. Format Figures
+    for f_bbox in figure_sections:
+        page_contents.append({
+            "Category": "figure",
+            "contents": get_image_data(page, f_bbox),
+            "coordinates": list(f_bbox)
+        })
+
+    # Sort by the 'top' coordinate (index 1) to preserve reading order
+    page_contents.sort(key=lambda x: x["coordinates"][1])
+    return page_contents
+
 # --- MAIN EXECUTION ---
 
 def process_pdf(path):
+
+    full_document = []
     with pdfplumber.open(path) as pdf:
         print(f"Processing {len(pdf.pages)} pages...")
         
@@ -331,7 +380,7 @@ def process_pdf(path):
                 final_figure_sections = merge_groups(candidate_fig_sections, final_fig_groups)
             else:
                 final_figure_sections = []
-######## add paragraphs
+
             # 6. VISUALIZATION
             final_paras = []
             for v in paragraphs:
@@ -356,6 +405,22 @@ def process_pdf(path):
             im.save(output_path)
             print(f"Saved Page {page_num}")
 
+            page_results = format_page_data(
+                page, 
+                final_table_sections, 
+                final_paras, 
+                final_figure_sections
+            )
+            
+            full_document.append({
+                "page_number": i + 1,
+                "contents": page_results
+            })
+            print(f"Processed Page {i+1}")
+
+    # Export to JSON
+    with open("results.json", "w", encoding="utf-8") as f:
+        json.dump({"Document": full_document}, f, indent=4)
 
 
 if __name__ == "__main__":
