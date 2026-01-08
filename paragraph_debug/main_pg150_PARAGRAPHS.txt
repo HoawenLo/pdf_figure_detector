@@ -1,7 +1,0 @@
---- BLOCK 1 ---
-filter is the convex hull filter. The filtered surface shall be contained between two planes 0,2 mm apart,
-in the theoretically correct orientation and location relative to datum D.
-
---- BLOCK 2 ---
-Figure E.18 — Example of a position specification
-

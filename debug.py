@@ -9,19 +9,19 @@ RESOLUTION = 150
 OFFSET_VAL = 24.03
 MIN_DIAGRAM_SIZE = 10  # Filter out noise smaller than 10x10 pts
 
-# Define subdirectories
-DIRS = {
-    "chars": os.path.join(BASE_DEBUG_DIR, "char_debug"),
-    "diagrams": os.path.join(BASE_DEBUG_DIR, "diagram_debug"),
-    "paras": os.path.join(BASE_DEBUG_DIR, "paragraph_debug"),
-    "tables": os.path.join(BASE_DEBUG_DIR, "table_debug"),
-    "offsets": os.path.join(BASE_DEBUG_DIR, "text_line_debug"),
-    "vectors": os.path.join(BASE_DEBUG_DIR, "vector_debug"),
-}
+# # Define subdirectories
+# DIRS = {
+#     "chars": os.path.join(BASE_DEBUG_DIR, "char_debug"),
+#     "diagrams": os.path.join(BASE_DEBUG_DIR, "diagram_debug"),
+#     "paras": os.path.join(BASE_DEBUG_DIR, "paragraph_debug"),
+#     "tables": os.path.join(BASE_DEBUG_DIR, "table_debug"),
+#     "offsets": os.path.join(BASE_DEBUG_DIR, "text_line_debug"),
+#     "vectors": os.path.join(BASE_DEBUG_DIR, "vector_debug"),
+# }
 
-# Create all directories
-for d in DIRS.values():
-    os.makedirs(d, exist_ok=True)
+# # Create all directories
+# for d in DIRS.values():
+#     os.makedirs(d, exist_ok=True)
 
 # --- HELPER FUNCTIONS ---
 
@@ -64,42 +64,44 @@ def group_boxes(boxes, margin=12):
 
 # --- ANALYSIS MODULES ---
 
-def run_char_debug(page, page_num):
+def run_char_debug(page, page_num, dirs):
     im = page.to_image(resolution=RESOLUTION)
     clean_chars = [{"x0": float(c["x0"]), "top": float(c["top"]), 
                     "x1": float(c["x1"]), "bottom": float(c["bottom"])} for c in page.chars]
     im.draw_rects(clean_chars, stroke="blue", stroke_width=1)
-    im.save(os.path.join(DIRS["chars"], f"page_{page_num}_chars.png"))
+    im.save(os.path.join(dirs["chars"], f"page_{page_num}_chars.png"))
 
-def run_vector_debug(page, page_num):
+def run_vector_debug(page, page_num, dirs):
     im = page.to_image(resolution=RESOLUTION)
     if page.lines: im.draw_rects(page.lines, stroke="red", stroke_width=1)
     if page.rects: im.draw_rects(page.rects, stroke="blue", stroke_width=1)
     if page.curves: im.draw_rects(page.curves, stroke="green", stroke_width=1)
-    im.save(os.path.join(DIRS["vectors"], f"page_{page_num}_vectors.png"))
+    im.save(os.path.join(dirs["vectors"], f"page_{page_num}_vectors.png"))
 
-def run_table_debug(page, page_num):
+def run_table_debug(page, page_num, dirs):
     tables = page.find_tables()
+    im = page.to_image(resolution=RESOLUTION)
     if tables:
-        im = page.to_image(resolution=RESOLUTION)
         im.draw_rects([t.bbox for t in tables], stroke="blue", stroke_width=3)
-        im.save(os.path.join(DIRS["tables"], f"page_{page_num}_tables.png"))
+    im.save(os.path.join(dirs["tables"], f"page_{page_num}_tables.png"))
 
-def run_diagram_debug(page, page_num):
+def run_diagram_debug(page, page_num, dirs):
     elements = page.lines + page.rects + page.curves
     boxes = [[float(e["x0"]), float(e["top"]), float(e["x1"]), float(e["bottom"])] 
              for e in elements if (float(e["x1"]) - float(e["x0"])) > MIN_DIAGRAM_SIZE]
+    
+    im = page.to_image(resolution=RESOLUTION)
     if boxes:
         groups = group_boxes(boxes)
         merged = []
         for g in groups:
             merged.append([min(boxes[i][0] for i in g), min(boxes[i][1] for i in g),
                            max(boxes[i][2] for i in g), max(boxes[i][3] for i in g)])
-        im = page.to_image(resolution=RESOLUTION)
+        
         im.draw_rects(merged, stroke="red", stroke_width=2)
-        im.save(os.path.join(DIRS["diagrams"], f"page_{page_num}_diagrams.png"))
+    im.save(os.path.join(dirs["diagrams"], f"page_{page_num}_diagrams.png"))
 
-def run_text_and_para_debug(page, page_num):
+def run_text_and_para_debug(page, page_num, dirs):
     all_words = page.extract_words(extra_attrs=["fontname"])
     img_off = page.to_image(resolution=RESOLUTION)
     
@@ -111,25 +113,25 @@ def run_text_and_para_debug(page, page_num):
             w.update({"nx0": nx0, "ntop": ntop, "nx1": nx1, "nbot": nbot})
             processed_words.append(w)
     
-    img_off.save(os.path.join(DIRS["offsets"], f"page_{page_num}_offsets.png"))
+    img_off.save(os.path.join(dirs["offsets"], f"page_{page_num}_offsets.png"))
     # Note: You can call your paragraph merging logic here using 'processed_words'
 
 # --- MAIN EXECUTION ---
 
-def main():
-    print(f"Starting debug process for: {PDF_PATH}")
-    with pdfplumber.open(PDF_PATH) as pdf:
+def main(pdf_path, dirs):
+    print(f"Starting debug process for: {pdf_path}")
+    with pdfplumber.open(pdf_path) as pdf:
         for i, page in enumerate(pdf.pages):
             page_num = i + 1
             print(f"Processing Page {page_num}...")
             
-            run_char_debug(page, page_num)
-            run_vector_debug(page, page_num)
-            run_table_debug(page, page_num)
-            run_diagram_debug(page, page_num)
-            run_text_and_para_debug(page, page_num)
+            run_char_debug(page, page_num, dirs)
+            run_vector_debug(page, page_num, dirs)
+            run_table_debug(page, page_num, dirs)
+            run_diagram_debug(page, page_num, dirs)
+            run_text_and_para_debug(page, page_num, dirs)
 
-    print(f"\nSuccess! All debug files are in the '{BASE_DEBUG_DIR}' directory.")
+    print(f"\nSuccess! All debug files are in the 'debug' directory.")
 
 if __name__ == "__main__":
     main()
