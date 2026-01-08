@@ -1,0 +1,49 @@
+{
+    "Document": [
+        {
+            "page_number": 1,
+            "contents": [
+                {
+                    "Category": "paragraph",
+                    "contents": "Geometrical product specifications (GPS) \u2014 Geometrical\ntolerancing \u2014 Tolerances of form, orientation, location\nand run-out",
+                    "coordinates": [
+                        70.8661,
+                        118.31229999999994,
+                        538.9812999999999,
+                        174.31229999999994
+                    ]
+                },
+                {
+                    "Category": "paragraph",
+                    "contents": "IMPORTANT \u2014 The illustrations included in this document are intended to illustrate the text\nand/or to provide examples of the related technical drawing specification; these illustrations are\nnot fully dimensioned and toleranced, showing only the relevant general principles. In particular,\nmany illustrations do not contain filter specifications. As a consequence, the illustrations are\nnot a representation of a complete workpiece, and are not of a quality that is required for use in\nindustry (in terms of full conformity with the standards prepared by ISO/TC 10 and ISO/TC 213),\nand as such are not suitable for projection for teaching purposes.",
+                    "coordinates": [
+                        70.8661,
+                        187.49249999999995,
+                        558.4300999999999,
+                        271.0925
+                    ]
+                },
+                {
+                    "Category": "paragraph",
+                    "contents": "1 Scope\nThis document defines the symbol language for geometrical specification of workpieces and the rules\nfor its interpretation.\nIt provides the foundation for geometrical specification.\nThe illustrations in this document are intended to illustrate how a specification can be fully indicated\nwith visible annotation (including e.g. TEDs).\nNOTE 1 Other International Standards referenced in Clause 2 and in Tables 3 and 4 provide more detailed\ninformation on geometrical tolerancing.\nNOTE 2 This document gives rules for explicit and direct indications of geometrical specifications.\nAlternatively, the same specifications can be indicated indirectly in accordance with ISO 16792 by attaching\nthem to a 3D CAD model. In this case, it is possible that some elements of the specification are available through\na query function or other interrogation of information on the model instead of being indicated using visible\nannotation.",
+                    "coordinates": [
+                        70.8661,
+                        292.1243999999999,
+                        558.4333999999997,
+                        487.8098
+                    ]
+                },
+                {
+                    "Category": "paragraph",
+                    "contents": "2 Normative references\nThe following documents are referred to in the text in such a way that some or all of their content\nconstitutes requirements of this document. For dated references, only the edition cited applies. For\nundated references, the latest edition of the referenced document (including any amendments) applies.\nISO 128-24:1999, Technical drawings \u2014 General principles of presentation \u2014 Part 24: Lines on mechanical\nengineering drawings\nISO 1660, Technical drawings \u2014 Dimensioning and tolerancing of profiles\nISO 2692:2014, Geometrical product specifications (GPS) \u2014 Geometrical tolerancing \u2014 Maximum material\nrequirement (MMR), least material requirement (LMR) and reciprocity requirement (RPR)\nISO 5458, Geometrical Product Specifications (GPS) \u2014 Geometrical tolerancing \u2014 Positional tolerancing\nISO 5459, Geometrical product specifications (GPS) \u2014 Geometrical tolerancing \u2014 Datums and datum systems\nISO 8015:2011, Geometrical product specifications (GPS) \u2014 Fundamentals \u2014 Concepts, principles and rules\nISO 10579:2010, Geometrical product specifications (GPS) \u2014 Dimensioning and tolerancing \u2014 Non-\nrigid parts\nISO 13715, Technical drawings \u2014 Edges of undefined shape \u2014 Vocabulary and indications",
+                    "coordinates": [
+                        70.8661,
+                        511.53069999999997,
+                        558.6817,
+                        776.7347
+                    ]
+                }
+            ]
+        }
+    ]
+}

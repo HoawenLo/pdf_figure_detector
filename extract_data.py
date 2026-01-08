@@ -1,28 +1,43 @@
 import os
+from british_standards_extractor import BritishStandardExtractor
 
-from new_detect_figures import process_pdf
+# --- CONFIGURATION ---
+TARGET_DIR = "target_documents"
+MASTER_OUTPUT_DIR = "temp"
 
-# Master output directory
-master_output_dir = "temp"
-target_dir = "target_documents"
+def main():
+    # Ensure the master directory exists
+    os.makedirs(MASTER_OUTPUT_DIR, exist_ok=True)
 
-# List all files in the directory
-all_files = [f for f in os.listdir(target_dir) if os.path.isfile(os.path.join(target_dir, f))]
+    # List all PDF files in the target directory
+    all_files = [f for f in os.listdir(TARGET_DIR) if f.lower().endswith(".pdf")]
 
-# Ensure the master directory exists
-os.makedirs(master_output_dir, exist_ok=True)
+    for doc in all_files:
+        print(f"\n>>> Processing: {doc}")
 
-# Loop through each document
-for doc in all_files:
+        # --- AUTO-MODE SELECTION ---
+        # If "8888" appears in the name, use the Script 1 logic.
+        # Otherwise (ISO/EN documents), use the Script 2 logic.
+        if "8888" in doc:
+            mode = "bs8888"
+        else:
+            mode = "default"
+        
+        # Setup output path
+        folder_name = os.path.splitext(doc)[0]
+        doc_output_dir = os.path.join(MASTER_OUTPUT_DIR, folder_name)
 
-    print(f"Currently processing document: {doc}")
+        # Instantiate and run
+        extractor = BritishStandardExtractor(mode=mode)
+        target_filepath = os.path.join(TARGET_DIR, doc)
+        
+        # try:
+        extractor.process_pdf(target_filepath, doc_output_dir)
+        print(f"--- Successfully finished {doc} in '{mode}' mode.")
+        # except Exception as e:
+        #     print(f"!!! Error processing {doc}: {str(e)}")
 
-    # Create a subdirectory for the document
-    doc_output_dir = os.path.join(master_output_dir, doc)
-    os.makedirs(doc_output_dir, exist_ok=True)
+    print("\nProcessing complete for all files.")
 
-    target_filepath = os.path.join(target_dir, doc)
-    process_pdf(target_filepath, doc_output_dir)
-    print(f"Outputs exported to {target_filepath}")
-
-print(all_files)
+if __name__ == "__main__":
+    main()
