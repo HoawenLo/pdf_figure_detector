@@ -246,7 +246,7 @@ class BritishStandardExtractor:
         os.makedirs(self.output_dir, exist_ok=True)
         full_document = []
         with pdfplumber.open(path) as pdf:
-            for i, page in enumerate(pdf.pages[10:11]):
+            for i, page in enumerate(pdf.pages):
                 raw_lines = self.get_raw_lines(page)
 
                 final_table_sections = self.detect_tables(page, raw_lines)
@@ -271,11 +271,11 @@ class BritishStandardExtractor:
                 # Formatting Data
                 page_contents = []
                 for t in final_table_sections:
-                    page_contents.append({"Category": "table", "contents": page.crop(t).extract_table(), "coordinates": list(t)})
+                    page_contents.append({"category": "table", "contents": page.crop(t).extract_table(), "coordinates": list(t)})
                 for p in final_paras:
-                    page_contents.append({"Category": "paragraph", "contents": p["text"], "coordinates": [p["x0"], p["top"], p["x1"], p["bottom"]]})
+                    page_contents.append({"category": "paragraph", "contents": p["text"], "coordinates": [p["x0"], p["top"], p["x1"], p["bottom"]]})
                 for f in final_figure_sections:
-                    page_contents.append({"Category": "figure", "contents": self.get_image_data(page, f), "coordinates": list(f)})
+                    page_contents.append({"category": "figure", "contents": self.get_image_data(page, f), "coordinates": list(f)})
                 
                 page_contents.sort(key=lambda x: x["coordinates"][1])
                 full_document.append({"page_number": i + 1, "contents": page_contents})
