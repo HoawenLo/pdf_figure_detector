@@ -1,0 +1,921 @@
+[
+    {
+        "title": "7.1 General",
+        "trail": [
+            "7 Dimensioning"
+        ],
+        "full_hierarchy": "7 Dimensioning",
+        "crops": [
+            {
+                "page": 64,
+                "bbox": [
+                    30,
+                    103.35,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.1 Presentation rules",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 65,
+                "bbox": [
+                    30,
+                    90.13,
+                    565.28,
+                    656.13
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.2 Presentation of decimals",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 65,
+                "bbox": [
+                    30,
+                    646.13,
+                    565.28,
+                    741.13
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.3 Positioning of dimensions",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 65,
+                "bbox": [
+                    30,
+                    731.13,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 66,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.4 Units",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 67,
+                "bbox": [
+                    30,
+                    67.35,
+                    565.28,
+                    195.35
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.5.1 General",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.5 Elements of dimensioning: usage"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.5 Elements of dimensioning: usage",
+        "crops": [
+            {
+                "page": 67,
+                "bbox": [
+                    30,
+                    207.7,
+                    565.28,
+                    682.65
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.5.2 Dimension line",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.5 Elements of dimensioning: usage"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.5 Elements of dimensioning: usage",
+        "crops": [
+            {
+                "page": 67,
+                "bbox": [
+                    30,
+                    672.65,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 68,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    286.53
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.5.3 Extension lines",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.5 Elements of dimensioning: usage"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.5 Elements of dimensioning: usage",
+        "crops": [
+            {
+                "page": 68,
+                "bbox": [
+                    30,
+                    276.53,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 69,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 70,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 71,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    307.59
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.5.4 Leader line",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.5 Elements of dimensioning: usage"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.5 Elements of dimensioning: usage",
+        "crops": [
+            {
+                "page": 71,
+                "bbox": [
+                    30,
+                    297.59,
+                    565.28,
+                    348.24
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.6.1 Indication",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.6 Dimensional values"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.6 Dimensional values",
+        "crops": [
+            {
+                "page": 71,
+                "bbox": [
+                    30,
+                    360.59,
+                    565.28,
+                    411.59
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.6.2 Positions of dimensional values",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.6 Dimensional values"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.6 Dimensional values",
+        "crops": [
+            {
+                "page": 71,
+                "bbox": [
+                    30,
+                    401.59,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 72,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 73,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    341.05
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.7 Indications of special dimensions",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 73,
+                "bbox": [
+                    30,
+                    331.05,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 74,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 75,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    565.27
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.8 Auxiliary dimensions",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 75,
+                "bbox": [
+                    30,
+                    555.27,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.9.1 Repeated features",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.9 Repeated and equally-spaced features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.9 Repeated and equally-spaced features",
+        "crops": [
+            {
+                "page": 76,
+                "bbox": [
+                    30,
+                    89.69,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.9.2 Equally‑spaced features",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.9 Repeated and equally-spaced features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.9 Repeated and equally-spaced features",
+        "crops": [
+            {
+                "page": 77,
+                "bbox": [
+                    30,
+                    67.31,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 78,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    314.08
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.10.1 External chamfer",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.10 Chamfers"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.10 Chamfers",
+        "crops": [
+            {
+                "page": 78,
+                "bbox": [
+                    30,
+                    326.43,
+                    565.28,
+                    650.43
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.10.2 Internal chamfer",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.10 Chamfers"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.10 Chamfers",
+        "crops": [
+            {
+                "page": 78,
+                "bbox": [
+                    30,
+                    640.43,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 79,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    426.18
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.11 Countersink",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 79,
+                "bbox": [
+                    30,
+                    416.18,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.12 Indication of levels",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 80,
+                "bbox": [
+                    30,
+                    67.34,
+                    565.28,
+                    331.85
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.13.1 Curved feature defined by radii",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.13 Dimensioning of curved features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.13 Dimensioning of curved features",
+        "crops": [
+            {
+                "page": 80,
+                "bbox": [
+                    30,
+                    344.2,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 81,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    286.75
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.13.2 Curved feature defined by coordinate dimensions",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.13 Dimensioning of curved features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.13 Dimensioning of curved features",
+        "crops": [
+            {
+                "page": 81,
+                "bbox": [
+                    30,
+                    276.75,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.14.1 General",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.14 Arrangements of dimensions"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.14 Arrangements of dimensions",
+        "crops": [
+            {
+                "page": 82,
+                "bbox": [
+                    30,
+                    89.69,
+                    565.28,
+                    140.69
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.14.2 Chain dimensioning",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.14 Arrangements of dimensions"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.14 Arrangements of dimensions",
+        "crops": [
+            {
+                "page": 82,
+                "bbox": [
+                    30,
+                    130.69,
+                    565.28,
+                    422.83
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.14.3 Parallel dimensioning",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.14 Arrangements of dimensions"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.14 Arrangements of dimensions",
+        "crops": [
+            {
+                "page": 82,
+                "bbox": [
+                    30,
+                    412.83,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 83,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    415.77
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.14.4 Running dimensioning",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods",
+            "7.2.14 Arrangements of dimensions"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods > 7.2.14 Arrangements of dimensions",
+        "crops": [
+            {
+                "page": 83,
+                "bbox": [
+                    30,
+                    405.77,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 84,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 85,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    381.39
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.2.15 Cartesian coordinate dimensioning",
+        "trail": [
+            "7 Dimensioning",
+            "7.2 Dimensioning methods"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.2 Dimensioning methods",
+        "crops": [
+            {
+                "page": 85,
+                "bbox": [
+                    30,
+                    371.39,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 86,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 87,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    512.26
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.3.1 Dimensioning of slots",
+        "trail": [
+            "7 Dimensioning",
+            "7.3 Dimensioning common features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.3 Dimensioning common features",
+        "crops": [
+            {
+                "page": 87,
+                "bbox": [
+                    30,
+                    524.96,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.3.2 Keyways",
+        "trail": [
+            "7 Dimensioning",
+            "7.3 Dimensioning common features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.3 Dimensioning common features",
+        "crops": [
+            {
+                "page": 88,
+                "bbox": [
+                    30,
+                    67.34,
+                    565.28,
+                    554.4
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.3.3 Screw threads",
+        "trail": [
+            "7 Dimensioning",
+            "7.3 Dimensioning common features"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.3 Dimensioning common features",
+        "crops": [
+            {
+                "page": 88,
+                "bbox": [
+                    30,
+                    544.4,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.1 General",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing",
+        "crops": [
+            {
+                "page": 89,
+                "bbox": [
+                    30,
+                    90.13,
+                    565.28,
+                    193.13
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.2 Methods of specifying dimensional tolerances",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing",
+        "crops": [
+            {
+                "page": 89,
+                "bbox": [
+                    30,
+                    183.13,
+                    565.28,
+                    348.13
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.3.1 General",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing",
+            "7.4.3 Indication of dimensional tolerances"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing > 7.4.3 Indication of dimensional tolerances",
+        "crops": [
+            {
+                "page": 89,
+                "bbox": [
+                    30,
+                    360.48,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 90,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    283.82
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.3.2 Deviation limits",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing",
+            "7.4.3 Indication of dimensional tolerances"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing > 7.4.3 Indication of dimensional tolerances",
+        "crops": [
+            {
+                "page": 90,
+                "bbox": [
+                    30,
+                    273.82,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 91,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    160.39
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.3.3 Display of tolerance values and limit and fit codes",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing",
+            "7.4.3 Indication of dimensional tolerances"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing > 7.4.3 Indication of dimensional tolerances",
+        "crops": [
+            {
+                "page": 91,
+                "bbox": [
+                    30,
+                    150.39,
+                    565.28,
+                    259.39
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.3.4 Limits of dimension",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing",
+            "7.4.3 Indication of dimensional tolerances"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing > 7.4.3 Indication of dimensional tolerances",
+        "crops": [
+            {
+                "page": 91,
+                "bbox": [
+                    30,
+                    249.39,
+                    565.28,
+                    565.7
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.4.4 Functional dimensions",
+        "trail": [
+            "7 Dimensioning",
+            "7.4 Dimensional tolerancing"
+        ],
+        "full_hierarchy": "7 Dimensioning > 7.4 Dimensional tolerancing",
+        "crops": [
+            {
+                "page": 91,
+                "bbox": [
+                    30,
+                    555.7,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 92,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.5 Implied dimensions",
+        "trail": [
+            "7 Dimensioning"
+        ],
+        "full_hierarchy": "7 Dimensioning",
+        "crops": [
+            {
+                "page": 93,
+                "bbox": [
+                    30,
+                    67.43,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 94,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    801.89
+                ]
+            },
+            {
+                "page": 95,
+                "bbox": [
+                    30,
+                    50,
+                    565.28,
+                    433.02
+                ]
+            }
+        ]
+    }
+]
