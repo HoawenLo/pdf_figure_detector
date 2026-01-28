@@ -212,6 +212,26 @@ def export_to_json(results, output_path="dimensioning_sections.json"):
         json.dump(export_list, f, indent=4, ensure_ascii=False)
     print(f"\nData successfully exported to {output_path}")
 
+def save_visual_crops(pdf_path, results, output_folder="debug_crops"):
+    """Saves each crop as a PNG. Handles multi-page sections by creating multiple files."""
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for section in results:
+            # Create a filesystem-safe name
+            safe_title = re.sub(r'[^\w\s-]', '', section['title']).strip().replace(' ', '_')
+            
+            for crop in section['crops']:
+                page = pdf.pages[crop['page_num'] - 1]
+                try:
+                    cropped_page = page.crop(crop['bbox'])
+                    img = cropped_page.to_image(resolution=150)
+                    filename = f"pg{crop['page_num']}_{safe_title}.png"
+                    img.save(os.path.join(output_folder, filename))
+                except Exception as e:
+                    print(f"Error saving {section['title']} on pg {crop['page_num']}: {e}")
+
 # --- Execution ---
 
 def main():
@@ -238,12 +258,16 @@ def main():
     # 5. Export
     export_to_json(final_sections, "dimensioning_sections.json")
     
+    save_visual_crops(filepath, final_sections)
+
     # 6. Console Summary
     print("\n" + "="*60)
     for s in final_sections:
         pages_str = ", ".join([str(c['page_num']) for c in s['crops']])
         print(f"{s['title']:<45} | Pages: {pages_str}")
     print("="*60)
+
+
 
 if __name__ == "__main__":
     main()
