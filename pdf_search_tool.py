@@ -1,16 +1,12 @@
+import re
 from PyPDF2 import PdfReader
 from sentence_transformers import SentenceTransformer, util
-import torch
-
-# Load model once
-model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 # -------------------------------------------------
 # 1️⃣ Exact Phrase Search
 # -------------------------------------------------
-def exact_search_pdf(pdf_path, phrase):
-    reader = PdfReader(pdf_path)
+def exact_search_pdf(reader, phrase):
     matches = []
 
     for i, page in enumerate(reader.pages):
@@ -19,7 +15,7 @@ def exact_search_pdf(pdf_path, phrase):
             matches.append({
                 "page": i + 1,
                 "match_type": "exact",
-                "similarity": 1.0,
+                "score": 1.0,
                 "text": phrase
             })
 
@@ -27,12 +23,35 @@ def exact_search_pdf(pdf_path, phrase):
 
 
 # -------------------------------------------------
-# 2️⃣ Semantic Search (Ordered Top X)
+# 2️⃣ Sentence Splitting
 # -------------------------------------------------
-def semantic_search_top_x(pdf_path, phrase, top_n=5):
-    reader = PdfReader(pdf_path)
+def split_into_sentences(text):
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    return [s.strip() for s in sentences if len(s.strip()) > 5]
 
-    # Collect all candidate sentences
+
+# -------------------------------------------------
+# 3️⃣ Keyword Overlap Score
+# -------------------------------------------------
+def keyword_overlap_score(query, sentence):
+    query_words = set(re.findall(r'\w+', query.lower()))
+    sentence_words = set(re.findall(r'\w+', sentence.lower()))
+
+    if not query_words:
+        return 0.0
+
+    overlap = query_words.intersection(sentence_words)
+    return len(overlap) / len(query_words)
+
+
+# -------------------------------------------------
+# 4️⃣ Hybrid Semantic Search
+# -------------------------------------------------
+def hybrid_search_top_x(reader, phrase, model,
+                        top_n=5,
+                        semantic_weight=0.8,
+                        keyword_weight=0.2):
+
     sentences = []
     pages = []
 
@@ -41,70 +60,84 @@ def semantic_search_top_x(pdf_path, phrase, top_n=5):
         if not text:
             continue
 
-        for sentence in text.split("."):
-            cleaned = sentence.strip()
-            if len(cleaned) > 5:
-                sentences.append(cleaned)
-                pages.append(i + 1)
+        for sentence in split_into_sentences(text):
+            sentences.append(sentence)
+            pages.append(i + 1)
 
     if not sentences:
         return []
 
-    # Encode in batch (fast)
     phrase_embedding = model.encode(phrase, convert_to_tensor=True)
     sentence_embeddings = model.encode(sentences, convert_to_tensor=True)
 
-    # Compute similarity
-    scores = util.cos_sim(phrase_embedding, sentence_embeddings)[0]
-
-    # Get top X (already sorted descending by torch.topk)
-    top_n = min(top_n, len(scores))
-    top_scores, top_indices = torch.topk(scores, k=top_n)
+    cosine_scores = util.cos_sim(phrase_embedding, sentence_embeddings)[0]
 
     results = []
-    for score, idx in zip(top_scores, top_indices):
+
+    for idx, sentence in enumerate(sentences):
+        semantic_score = cosine_scores[idx].item()
+        keyword_score = keyword_overlap_score(phrase, sentence)
+
+        final_score = (
+            semantic_score * semantic_weight +
+            keyword_score * keyword_weight
+        )
+
         results.append({
             "page": pages[idx],
-            "match_type": "semantic",
-            "similarity": round(score.item(), 4),
-            "text": sentences[idx]
+            "final_score": round(final_score, 4),
+            "semantic_score": round(semantic_score, 4),
+            "keyword_score": round(keyword_score, 4),
+            "text": sentence
         })
 
-    # Explicitly ensure descending order (extra safety)
-    results.sort(key=lambda x: x["similarity"], reverse=True)
+    results.sort(key=lambda x: x["final_score"], reverse=True)
 
-    return results
+    return results[:top_n]
 
 
 # -------------------------------------------------
-# 3️⃣ Unified Search Pipeline
+# 5️⃣ Unified Search Pipeline
 # -------------------------------------------------
 def search_pipeline(pdf_path, phrase, top_n=5):
+    print("🔄 Loading model...")
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    print("📖 Reading PDF...")
+    reader = PdfReader(pdf_path)
+
     print("🔍 Running exact search...")
-    exact_matches = exact_search_pdf(pdf_path, phrase)
+    exact_matches = exact_search_pdf(reader, phrase)
 
     if exact_matches:
         print("✅ Exact match found.")
         return exact_matches
 
     print("❌ No exact match found.")
-    print(f"🧠 Running semantic search (Top {top_n})...")
+    print(f"🧠 Running hybrid semantic search (Top {top_n})...")
 
-    return semantic_search_top_x(pdf_path, phrase, top_n=top_n)
+    return hybrid_search_top_x(reader, phrase, model, top_n=top_n)
 
 
 # -------------------------------------------------
-# Example Usage
+# Example Usage (edit directly here)
 # -------------------------------------------------
 if __name__ == "__main__":
+
     pdf_file = "document.pdf"
     search_phrase = "terminate the agreement"
+    top_results = 5
 
-    results = search_pipeline(pdf_file, search_phrase, top_n=10)
+    results = search_pipeline(pdf_file, search_phrase, top_results)
 
-    print("\nResults (Highest → Lowest):\n")
+    print("\n===== RESULTS (Highest → Lowest) =====\n")
 
     for r in results:
-        print(f"[Page {r['page']}]  Score: {r['similarity']}")
+        print(f"[Page {r['page']}]")
+        print(f"Final Score: {r.get('final_score', r.get('score'))}")
+        if "semantic_score" in r:
+            print(f"Semantic Score: {r['semantic_score']}")
+            print(f"Keyword Score: {r['keyword_score']}")
+        print("Text:")
         print(r["text"])
         print("-" * 70)
