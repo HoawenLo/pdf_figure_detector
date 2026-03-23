@@ -18,14 +18,16 @@ from sentence_transformers import SentenceTransformer, util
 # 1️⃣ Exact Phrase Search
 # -------------------------------------------------
 def exact_search_pdf(reader, phrase):
-    """Search pdf page for the exact matches for a phrase.
+    """Searches a PDF for exact matches of a specified phrase.
 
     Args:
-        reader (PdfReader): Used to read in PDF pages.
-        phrase (str): A string contained the phrase to search.
+        reader (PyPDF2.PdfReader): The PdfReader object containing the PDF pages.
+        phrase (str): The exact string phrase to search for within the PDF.
 
     Returns:
-        (list) List containing dictionary of all pages and their score based off exact matches."""
+        list[dict]: A list of dictionaries containing the page number, match type,
+            score (1.0 for exact), and the matched text.
+    """
     matches = []
 
     for i, page in enumerate(reader.pages):
@@ -45,13 +47,14 @@ def exact_search_pdf(reader, phrase):
 # 2️⃣ Sentence Splitting
 # -------------------------------------------------
 def split_into_sentences(text):
-    """Split text into sentences for semantic search.
+    """Splits a block of text into individual sentences for semantic analysis.
 
     Args:
-        text (str): The input text.
+        text (str): The raw input text extracted from a PDF page.
 
     Returns:
-        (list) A list of sentences that has been cleaned."""
+        list[str]: A list of cleaned sentences that are longer than 5 characters.
+    """
     sentences = re.split(r'(?<=[.!?])\s+', text)
     return [s.strip() for s in sentences if len(s.strip()) > 5]
 
@@ -60,7 +63,18 @@ def split_into_sentences(text):
 # 3️⃣ Keyword Overlap Score
 # -------------------------------------------------
 def keyword_overlap_score(query, sentence):
-    """
+    """Calculates the keyword overlap score between a query and a sentence.
+
+    This computes the ratio of overlapping words to the total number of words
+    in the query, ignoring case and punctuation.
+
+    Args:
+        query (str): The search phrase or query.
+        sentence (str): The sentence to compare against the query.
+
+    Returns:
+        float: A score between 0.0 and 1.0 representing the ratio of query words
+            found in the sentence. Returns 0.0 if the query is empty.
     """
     query_words = set(re.findall(r'\w+', query.lower()))
     sentence_words = set(re.findall(r'\w+', sentence.lower()))
@@ -79,7 +93,21 @@ def hybrid_search_top_x(reader, phrase, model,
                         top_n=5,
                         semantic_weight=0.7,
                         keyword_weight=0.3):
+    """Performs a hybrid search combining semantic similarity and keyword overlap.
 
+    Args:
+        reader (PyPDF2.PdfReader): The PdfReader object containing the PDF pages.
+        phrase (str): The phrase or query to search for.
+        model (sentence_transformers.SentenceTransformer): The loaded embedding model.
+        top_n (int, optional): The maximum number of top results to return. Defaults to 5.
+        semantic_weight (float, optional): The weight applied to the semantic similarity score. Defaults to 0.7.
+        keyword_weight (float, optional): The weight applied to the keyword overlap score. Defaults to 0.3.
+
+    Returns:
+        list[dict]: A list of dictionaries representing the top matches sorted by final_score. 
+            Each dictionary contains the page number, final combined score, semantic score, 
+            keyword score, and the matching sentence text.
+    """
     sentences = []
     pages = []
 
@@ -98,7 +126,7 @@ def hybrid_search_top_x(reader, phrase, model,
     phrase_embedding = model.encode(phrase, convert_to_tensor=True)
     sentence_embeddings = model.encode(sentences, convert_to_tensor=True)
 
-    cosine_scores = util.cos_sim(phrase_embedding, sentence_embeddings)[0]
+    cosine_scores = util.cos_sim(phrase_embedding, sentence_embeddings)
 
     results = []
 
@@ -128,6 +156,21 @@ def hybrid_search_top_x(reader, phrase, model,
 # 5️⃣ Unified Search Pipeline
 # -------------------------------------------------
 def search_pipeline(pdf_path, phrase, model, top_n=5):
+    """Executes the complete search pipeline: exact match fallback to hybrid search.
+
+    Attempts to find an exact match first. If no exact matches are found, it falls
+    back to the hybrid semantic search method.
+
+    Args:
+        pdf_path (str): The file path to the PDF document.
+        phrase (str): The search phrase or query.
+        model (sentence_transformers.SentenceTransformer): The loaded embedding model.
+        top_n (int, optional): The number of top results to return for hybrid search. Defaults to 5.
+
+    Returns:
+        list[dict]: A list of dictionaries containing the search results, either from the
+            exact match or the hybrid semantic search.
+    """
     print("📖 Reading PDF...")
     reader = PdfReader(pdf_path)
 
@@ -145,6 +188,15 @@ def search_pipeline(pdf_path, phrase, model, top_n=5):
 
 
 def find_keyterm_in_pdf():
+    """Main execution function to find a specific keyterm in a designated PDF.
+
+    Initializes the sentence transformer model, sets the file paths, defines
+    the search phrase, runs the search pipeline, and prints the formatted 
+    results to the console.
+
+    Returns:
+        None
+    """
     model_filepath = "/GINKGO/scratch/software/huggingface/all-MiniLM-L6-v2"
     model = SentenceTransformer(model_filepath)
     pdf_file = "/GINKGO/home/hwlo/engineering_drawings_prototype/data/raw/BS EN 755-2-2025--[2026-02-11--04-05-35 PM].pdf"
